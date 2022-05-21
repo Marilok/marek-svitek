@@ -5,7 +5,7 @@ import Template from "../components/Template.tsx"
 import ProjectCard from "../components/ProjectCard.tsx"
 import { Helmet } from "react-helmet"
 import { Wrap } from "@chakra-ui/react"
-import barkaUno from "../images/barkaUno.jpg"
+import barkaUno from "../images/barka-uno.jpg"
 
 const page = () => {
     const projects = [
