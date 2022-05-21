@@ -14,7 +14,7 @@ import {
     IconProps,
     useColorModeValue
 } from '@chakra-ui/react';
-import heroSrc from '../images/hero.jpg';
+import heroSrc from '../images/hero.png';
 import { Link } from "gatsby"
 
 export default function CallToAction() {

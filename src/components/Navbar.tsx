@@ -59,8 +59,8 @@ export default function WithSubnavigation() {
                 </Flex>
                 <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
                     <LinkGatsby to={'/'}>
-                    <Logo/>
-</LinkGatsby>
+                        <Logo />
+                    </LinkGatsby>
                     <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
                         <DesktopNav />
                     </Flex>
@@ -74,24 +74,24 @@ export default function WithSubnavigation() {
                     {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
                 </Button>
                 <LinkGatsby to={'/kontakt'}>
-                <Stack
-                    flex={{ base: 1, md: 0 }}
-                    justify={'flex-end'}
-                    direction={'row'}
-                    spacing={6}>
-                    <Button
-                        display={{ base: 'none', md: 'inline-flex' }}
-                        fontSize={'sm'}
-                        fontWeight={600}
-                        color={'white'}
-                        bg={'pink.400'}
-                        _hover={{
-                            bg: 'pink.300',
-                        }}>
-                        Spojme se!
-                    </Button>
-                </Stack>
-                            </LinkGatsby>
+                    <Stack
+                        flex={{ base: 1, md: 0 }}
+                        justify={'flex-end'}
+                        direction={'row'}
+                        spacing={6}>
+                        <Button
+                            display={{ base: 'none', md: 'inline-flex' }}
+                            fontSize={'sm'}
+                            fontWeight={600}
+                            color={'white'}
+                            bg={'pink.400'}
+                            _hover={{
+                                bg: 'pink.300',
+                            }}>
+                            Spojme se!
+                        </Button>
+                    </Stack>
+                </LinkGatsby>
             </Flex>
 
             <Collapse in={isOpen} animateOpacity>
@@ -253,7 +253,7 @@ interface NavItem {
 }
 
 const NAV_ITEMS: Array<NavItem> = [
-        {
+    {
         label: 'Kdo jsem',
         href: '/zivotopis',
     },
@@ -263,7 +263,7 @@ const NAV_ITEMS: Array<NavItem> = [
     },
     {
         label: 'Zápisky znalostí',
-        href: '/zapisky',  
+        href: '/zapisky',
     }
     // {
     //     label: 'Inspiration',

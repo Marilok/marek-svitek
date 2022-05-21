@@ -1,12 +1,10 @@
 import * as React from "react"
 import "../style.sass"
 import "@fontsource/open-sans"
-import Img from "../images/project-ip.png"
 import Hero from "../components/Hero.tsx"
+import Contact from "../components/Contact.tsx"
 import Template from "../components/Template.tsx"
 import { Helmet } from "react-helmet";
-import { OutboundLink } from "gatsby-plugin-google-gtag"
-import heroSrc from '../images/hero.jpg';
 
 import {
     Box,
@@ -42,37 +40,8 @@ const page = () => {
             </Helmet>
 
             <Template>
-                <OutboundLink target="_blank" href={'https://www.linkedin.com/in/mareksvitek/'}>
-                <IconButton icon={<FaLinkedin />}/>
-                </OutboundLink>
-                <OutboundLink target="_blank" href={'https://www.instagram.com/svitek.marek/'}>
-                    <IconButton icon={<FaInstagram />}/>
-                </OutboundLink>
-                <OutboundLink target="_blank" href={'https://github.com/Marilok/'}>
-                    <IconButton icon={<FaGithub />}/>
-                </OutboundLink>
-<Text>Marek Svitek</Text>
-<Text>Svíťa</Text>
-<Text>Brno</Text>
-                <Text>Neváhej se mě kontaktovat pokud: <br /> a) chceš zbrusu nový web Probrat cokoliv 😎<br /> b) jsi podnikavý a rád tvoříš 🚀<br /> a nebo jakkýkoliv jiný důvod, rád si popovídám s každým 😁</Text>
-                {/* <Box
-                    position={'relative'}
-                    height={'auto'}
-                    rounded={'2xl'}
-                    boxShadow={'2xl'}
-                    width={'400px'}
-                    overflow={'hidden'}>
-                    <Image
-                        alt={'Hero Image'}
-                        fit={'cover'}
-                        align={'center'}
-                        w={'100%'}
-                        h={'100%'}
-                        src={
-                            heroSrc
-                        }
-                    />
-                </Box> */}
+                <Contact></Contact>
+                
             </Template>
         </>
 

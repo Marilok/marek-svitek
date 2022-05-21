@@ -5,6 +5,7 @@ import Img from "../images/project-ip.png"
 import Hero from "../components/Hero.tsx"
 import Template from "../components/Template.tsx"
 import { Helmet } from "react-helmet";
+import { Heading, Text, Flex, Box, Center } from '@chakra-ui/react'
 
 // import "@fontsource/open-sans/600-normal.css"
 // import "@fontsource/open-sans/700-normal.css"
@@ -50,8 +51,10 @@ const page = () => {
             </Helmet>
 
             <Template>
-                Na tomto teprv pracuji. 👷
-            </Template>
+                <Center maxW="full" h="87vh">
+                    <Text fontSize='6xl'>Na tomto teprv pracuji.👷</Text>
+
+                </Center>            </Template>
         </>
 
     )

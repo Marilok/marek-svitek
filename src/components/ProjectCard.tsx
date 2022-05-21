@@ -9,8 +9,10 @@ import {
     useColorModeValue,
     Image,
     Link,
+    Flex,Spacer,
     Tag, HStack, TagLeftIcon, TagLabel
 } from '@chakra-ui/react';
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 export default function blogPostWithImage(props) {
     const renderTags = (tags) => {
@@ -35,7 +37,8 @@ export default function blogPostWithImage(props) {
                         boxShadow: '2xl',
                     }}
                 overflow={'hidden'}>
-                    <Link textDecoration="none" to={'/'}>
+            <OutboundLink textDecoration="none" target={props.link ? '_blank' : ''}
+                href={props.link ? props.link : '#'}>
                 <Box
                     h={'210px'}
                     bg={'gray.100'}
@@ -54,21 +57,28 @@ export default function blogPostWithImage(props) {
                         
                     />
                 </Box>
-                </Link>
+                </OutboundLink>
                 <Stack>
-                          
-
-                    {props.tags ? renderTags(props.tags) : null}
-                <Link
-_hover={{ textDecoration: "none"}} 
-to={'/'}>
+                          <Flex>
+<Box>
+                    {props.tags ? renderTags(props.tags) : null}</Box>
+                    <Spacer/>
+                    <Box><Text color={'gray.500'}>{props.date}</Text></Box>
+                </Flex>
+                <OutboundLink 
+ 
+href={props.link? props.link : '#'}
+                    target={props.link ? '_blank' : ''}
+                    >
+                        <Link>
                     <Heading
                         color={useColorModeValue('gray.700', 'white')}
                         fontSize={'2xl'}
                         fontFamily={'body'}>
                         {props.title}
                     </Heading>
-                </Link>
+                    </Link>
+                </OutboundLink>
                     <Text color={'gray.500'}>
                         {props.description}
                     </Text>
