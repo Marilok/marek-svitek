@@ -3,14 +3,9 @@ import "../style.sass"
 import "@fontsource/open-sans"
 import Template from "../components/Template.tsx"
 import ProjectCard from "../components/ProjectCard.tsx"
-import { Helmet } from "react-helmet";
-import { Flex, Spacer, Wrap } from "@chakra-ui/react"
-import barkaImg from "../images/barka.png"
-import barkaUno from "../images/barkaUno.JPG"
-
-// import "@fontsource/open-sans/600-normal.css"
-// import "@fontsource/open-sans/700-normal.css"
-// import "@fontsource/open-sans/800-normal.css"
+import { Helmet } from "react-helmet"
+import { Wrap } from "@chakra-ui/react"
+import barkaUno from "../images/barkaUno.jpg"
 
 const page = () => {
     const projects = [
