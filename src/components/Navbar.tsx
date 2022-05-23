@@ -24,7 +24,7 @@ import {
     ChevronDownIcon,
     ChevronRightIcon,
 } from '@chakra-ui/icons';
-import { Logo } from './Logo';
+import { Logo } from '../images/Logo';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 
 
