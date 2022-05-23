@@ -28,7 +28,7 @@ import {
 import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import heroSrc from '../images/hero.png';
 import { OutboundLink } from "gatsby-plugin-google-gtag"
-import { Logo } from '../images/Logo';
+import { Logo } from './Logo';
 
 
 export default function contact() {
