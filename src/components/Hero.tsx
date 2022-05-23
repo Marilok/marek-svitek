@@ -51,7 +51,7 @@ export default function CallToAction() {
                             a jsem&nbsp;	
                         </Text> */}
                         <Text as={'span'} color={'blue.400'}>
-                           podnikavý středoškolák
+                           podnikavý středoškolák 
                         </Text>
                         <Text
                             as={'span'}

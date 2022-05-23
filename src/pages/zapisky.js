@@ -37,27 +37,27 @@ const page = () => {
 
 
     return (
+      <>
+        <Helmet>
+          <meta name="theme-color" content="#01579B" />
+          <meta charSet="utf-8" />
+          <html lang="cs" />
+          <title>Zápisky | Marek Svitek - Svíťa</title>
+          <meta name="description" content="Ahoj!  &#128075; &#128187;" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+          />
+          <meta name="theme-color" content="#01579B" />
+        </Helmet>
 
-        <>
-            <Helmet>
-                <meta name="theme-color" content="#01579B" />
-                <meta charSet="utf-8" />
-                <html lang="cs" />
-                <title>Podnikavý středoškolák Svíťa &#128075;</title>
-                <meta name="description" content="Ahoj!  &#128075; &#128187;" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-                <meta name="theme-color" content="#01579B" />
-
-            </Helmet>
-
-            <Template>
-                <Center maxW="full" h="87vh">
-                    <Text fontSize='6xl'>Na tomto teprv pracuji.👷</Text>
-
-                </Center>            </Template>
-        </>
-
-    )
+        <Template>
+          <Center maxW="full" h="87vh">
+            <Text fontSize="6xl">Na tomto teprv pracuji.👷</Text>
+          </Center>{" "}
+        </Template>
+      </>
+    );
 }
 
 export default page

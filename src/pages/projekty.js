@@ -101,30 +101,36 @@ const page = () => {
 
 
     return (
+      <>
+        <Helmet>
+          <meta name="theme-color" content="#01579B" />
+          <meta charSet="utf-8" />
+          <html lang="cs" />
+          <title>Projekty | Marek Svitek - Svíťa</title>
+          <meta name="description" content="Ahoj!  &#128075; &#128187;" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+          />
+          <meta name="theme-color" content="#01579B" />
+        </Helmet>
 
-        <>
-            <Helmet>
-                <meta name="theme-color" content="#01579B" />
-                <meta charSet="utf-8" />
-                <html lang="cs" />
-                <title>Podnikavý středoškolák Svíťa &#128075;</title>
-                <meta name="description" content="Ahoj!  &#128075; &#128187;" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-                <meta name="theme-color" content="#01579B" />
-
-            </Helmet>
-
-            <Template>
-                <Wrap p={6} spacing={'1em'} align={'center'} justify={'center'} >
-                
-                {projects.map((project, index) => (
-                    <ProjectCard title={project.title} key={index} imgSrc={project.imgSrc} description={project.description} tags={project.tags} {...project}></ProjectCard>)
-                )}
-                </Wrap>
-            </Template>
-        </>
-
-    )
+        <Template>
+          <Wrap p={6} spacing={"1em"} align={"center"} justify={"center"}>
+            {projects.map((project, index) => (
+              <ProjectCard
+                title={project.title}
+                key={index}
+                imgSrc={project.imgSrc}
+                description={project.description}
+                tags={project.tags}
+                {...project}
+              ></ProjectCard>
+            ))}
+          </Wrap>
+        </Template>
+      </>
+    );
 }
 
 export default page
