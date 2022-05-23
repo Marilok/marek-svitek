@@ -11,7 +11,7 @@ import {
 } from '@chakra-ui/react';
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { ReactNode } from 'react';
-import {Logo} from '../images/logo';
+import { Logo } from '../images/Logo';
 
 const SocialButton = ({
     children,
@@ -61,7 +61,7 @@ export default function SmallWithLogoLeft() {
                 spacing={4}
                 justify={{ base: 'center', md: 'space-between' }}
                 align={{ base: 'center', md: 'center' }}>
-                <Logo />
+                <Logo variant='oneLine'/>
                 <Text>Vytvořeno s ❤️ v Brně, 🇨🇿</Text>
                 <Stack direction={'row'} spacing={6}>
                     <SocialButton label={'LinkedIn'} target="_blank" href={'https://www.linkedin.com/in/mareksvitek/'}>
