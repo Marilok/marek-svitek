@@ -28,6 +28,7 @@ import {
 import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import heroSrc from '../images/hero.png';
 import { OutboundLink } from "gatsby-plugin-google-gtag"
+import { Logo } from '../images/Logo';
 
 
 export default function contact() {
@@ -35,9 +36,11 @@ export default function contact() {
         <Container maxW="full" mt={0} centerContent overflow="hidden">
             <Flex>
                 <Box
-                    bg={useColorModeValue('blue.200', '#00569b')
-                    }
-                    color="white"
+                    // bg={useColorModeValue('#00569b', '#00569b')
+                    // }
+                    bg={useColorModeValue('blue.50', 'blue.400')}
+                    boxShadow='xl'
+                    // color="white"
                     borderRadius="lg"
                     m={{ sm: 4, md: 16, lg: 10 }}
                     p={{ sm: 5, md: 5, lg: 16 }}>
@@ -45,10 +48,10 @@ export default function contact() {
                         <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
                             <WrapItem>
                                 <Box>
-                                    <Heading>Pojďme se spolu spojit!</Heading>
+                                    <Heading>Pojďme něco spolu tvořit!</Heading>
 
                                     <Text mt={{ sm: 3, md: 3, lg: 5 }}>
-                                        Neváhej se mě kontaktovat pokud: <br /> a) chceš zbrusu nový web Probrat cokoliv 😎<br /> b) jsi podnikavý a rád tvoříš 🚀<br /> a nebo jakkýkoliv jiný důvod, rád si popovídám s každým 😁</Text>
+                                        <b>Neváhej se mě kontaktovat třeba z těchto důvodů: </b><br /> 😎 Potřebuješ zbrusu nový <i>~blazing fast~</i> web <br /> 🚀 Jsi podnikavý a rád tvoříš <br /> 😁 A nebo jakkýkoliv jiný důvod, rád si popovídám s každým</Text>
 
                                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                                         <VStack pl={0} spacing={3} alignItems="flex-start">
@@ -127,11 +130,12 @@ export default function contact() {
                                     position={'relative'}
                                     height={'auto'}
                                     rounded={'2xl'}
-                                    boxShadow={'2xl'}
                                     width={'auto'}
+                                    // bg={'red.500'}
                                     // overflow={'hidden'}
                                     >
                                     <Image
+                                        boxShadow={'lg'}
                                         alt={'Hero Image'}
                                         align={'center'}
                                         fit={'cover'}
@@ -144,16 +148,7 @@ export default function contact() {
                                             heroSrc
                                         }
                                     />
-                                    <VStack spacing={4}>
-                                        <Text size={'6xl'} style={{ fontFamily: 'Barlow', fontWeight: 900 }}>
-                                        Marek Svitek
-                                        </Text>
-                                        <br/>
-                                        <Text
-                                        color={'blue.400'} 
-                                        style={{ fontFamily: 'Caveat', position: 'absolute', fontSize: '1.2em', fontWeight: 500, transform: 'rotate(-10deg)' }}>
-                                            Svíťa</Text>
-                                    </VStack>
+                                    <Logo variant={'twoLines'}></Logo>
                                 </Box>
                             </WrapItem>
                         </Wrap>
