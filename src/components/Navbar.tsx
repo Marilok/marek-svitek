@@ -24,7 +24,7 @@ import {
     ChevronDownIcon,
     ChevronRightIcon,
 } from '@chakra-ui/icons';
-import { Logo } from '../images/logo';
+import { Logo } from '../images/Logo';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 
 
@@ -45,7 +45,7 @@ export default function WithSubnavigation() {
                 borderColor={useColorModeValue('gray.200', 'gray.900')}
                 align={'center'}>
                 <Flex
-                    flex={{ base: 1, md: 'auto' }}
+                    flex={{ base: 0, md: 'auto' }}
                     ml={{ base: -2 }}
                     display={{ base: 'flex', md: 'none' }}>
                     <IconButton
@@ -59,7 +59,7 @@ export default function WithSubnavigation() {
                 </Flex>
                 <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
                     <LinkGatsby to={'/'}>
-                        <Logo />
+                        <Logo variant={'oneLine'}/>
                     </LinkGatsby>
                     <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
                         <DesktopNav />
@@ -83,6 +83,7 @@ export default function WithSubnavigation() {
                             display={{ base: 'none', md: 'inline-flex' }}
                             fontSize={'sm'}
                             fontWeight={600}
+                            ml={2}
                             color={'white'}
                             bg={'pink.400'}
                             _hover={{
@@ -94,7 +95,7 @@ export default function WithSubnavigation() {
                 </LinkGatsby>
             </Flex>
 
-            <Collapse in={isOpen} animateOpacity>
+            <Collapse  in={isOpen} animateOpacity>
                 <MobileNav />
             </Collapse>
         </Box>
@@ -108,7 +109,7 @@ const DesktopNav = () => {
 
     return (
         <Stack direction={'row'} spacing={4}>
-            {NAV_ITEMS.map((navItem) => (
+            {NAV_ITEMS.filter(item => item.label !== 'Kontakt').map((navItem) => (
                 <Box key={navItem.label}>
                     <Popover trigger={'hover'} placement={'bottom-start'}>
                         <PopoverTrigger>
@@ -264,6 +265,11 @@ const NAV_ITEMS: Array<NavItem> = [
     {
         label: 'Zápisky znalostí',
         href: '/zapisky',
+    }
+    ,
+    {
+        label: 'Kontakt',
+        href: '/kontakt',
     }
     // {
     //     label: 'Inspiration',
