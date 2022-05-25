@@ -12,6 +12,7 @@ import {
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { ReactNode } from 'react';
 import { Logo } from '../images/Logo';
+import { OutboundLink } from 'gatsby-plugin-google-gtag';
 
 const SocialButton = ({
     children,
@@ -25,6 +26,7 @@ const SocialButton = ({
     target: string;
 }) => {
     return (
+        <OutboundLink href={href} target='_blank'>
         <chakra.button
             bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
             rounded={'full'}
@@ -32,7 +34,7 @@ const SocialButton = ({
             h={8}
             cursor={'pointer'}
             as={'a'}
-            href={href}
+            
             display={'inline-flex'}
             alignItems={'center'}
             justifyContent={'center'}
@@ -44,6 +46,7 @@ const SocialButton = ({
             <VisuallyHidden>{label}</VisuallyHidden>
             {children}
         </chakra.button>
+        </OutboundLink>
     );
 };
 
