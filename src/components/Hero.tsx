@@ -16,6 +16,8 @@ import {
 } from '@chakra-ui/react';
 import heroSrc from '../images/hero.png';
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+
 
 export default function CallToAction() {
     return (
@@ -126,7 +128,7 @@ export default function CallToAction() {
                         boxShadow={'2xl'}
                         width={'400px'}
                         overflow={'hidden'}>
-                        <Image
+                        {/* <Image
                             alt={'Hero Image'}
                             fit={'cover'}
                             align={'center'}
@@ -135,6 +137,16 @@ export default function CallToAction() {
                             src={
                                 heroSrc
                             }
+                            /> */}
+                        <StaticImage
+                            alt={'Hero Image'}
+                            // fit={'cover'}
+                            // align={'center'}
+                            // w={'100%'}
+                            // h={'100%'}
+                            placeholder="blurred"
+
+                            src='../images/hero.png'
                         />
                     </Box>
                 </Flex>
