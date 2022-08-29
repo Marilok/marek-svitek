@@ -32,7 +32,7 @@ const page = () => {
           <meta charSet="utf-8" />
           <html lang="cs" />
           <title>
-            Kontakt | Marek Svitek - Svíťa &#128075;
+            Kontakt | Marek Svitek - Svíťa
           </title>
           <meta name="description" content="Ahoj!  &#128075; &#128187;" />
           <meta

@@ -13,6 +13,7 @@ import {
     Tag, HStack, TagLeftIcon, TagLabel
 } from '@chakra-ui/react';
 import { OutboundLink } from "gatsby-plugin-google-gtag"
+import { GatsbyImage, StaticImage } from 'gatsby-plugin-image';
 
 export default function blogPostWithImage(props) {
     const renderTags = (tags) => {
@@ -51,6 +52,7 @@ export default function blogPostWithImage(props) {
                         w={'100%'}
                         h={'100%'}
                         fit={'cover'}
+                        alt='Project Image'
                         src={
                             props.imgSrc
                         }

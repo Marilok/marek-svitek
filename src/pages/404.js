@@ -6,7 +6,7 @@ const NotFoundPage = () => {
     <main>
       <title>Nenalezeno</title>
       <h1>Stránka nebyla nalezena</h1>
-      <p>Bohužel stránku, kterou hledáte neexistuje.
+      <p>Bohužel stránku, kterou hledáš neexistuje.
       </p>
         <Link to="/">Zpět</Link>.
     </main>

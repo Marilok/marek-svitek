@@ -1,7 +1,6 @@
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
-})
-
+});
 
 module.exports = {
   siteMetadata: {
@@ -26,12 +25,28 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: `${__dirname}/src/images/`,
       },
       __key: "images",
     },
     {
-      resolve: '@chakra-ui/gatsby-plugin',
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "projects",
+        path: `${__dirname}/src/images/projects/`,
+      },
+      __key: "projects",
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `zapisky`,
+        path: `${__dirname}/src/zapisky`,
+      },
+    },
+    `gatsby-transformer-remark`,
+    {
+      resolve: "@chakra-ui/gatsby-plugin",
       options: {
         /**
          * @property {boolean} [resetCSS=true]
