@@ -32,6 +32,21 @@ import { Logo } from '../images/Logo';
 
 
 export default function contact() {
+    const LinkIcon = (thref, aria, icon) => {
+        console.log(href, aria, icon);
+        
+        return (
+        <OutboundLink target="_blank" href={href}>
+        <IconButton
+            aria-label={aria}
+            variant="ghost"
+            size="lg"
+            isRound={true}
+                    _hover={{ bg: useColorModeValue('pink.400', 'pink.400') }}
+            icon={icon} />
+        </OutboundLink>)
+    };
+
     return (
         <Container maxW="full" mt={0} centerContent overflow="hidden">
             <Flex>
@@ -100,15 +115,15 @@ export default function contact() {
                                                 icon={<BsLinkedin size="28px" />}
                                             />
                                         </OutboundLink>
-
                                         <OutboundLink target="_blank" href={'https://www.instagram.com/svitek.marek/'}>
+
                                             <IconButton
                                                 aria-label="instagram"
                                                 variant="ghost"
                                                 size="lg"
                                                 isRound={true}
-                                                _hover={{ bg: '#0D74FF' }}
-                                                icon={<BsInstagram size="28px" />}
+                                                _hover={{ bg: useColorModeValue('pink.200', 'pink.400')}}
+                                                icon={< BsInstagram size="28px" />}
                                             />
                                         </OutboundLink>
                                         <OutboundLink target="_blank" href={'https://github.com/Marilok/'}>
@@ -118,7 +133,7 @@ export default function contact() {
                                                 variant="ghost"
                                                 size="lg"
                                                 isRound={true}
-                                                _hover={{ bg: '#0D74FF' }}
+                                                _hover={{ bg: useColorModeValue('blue.50', 'blue.400')}}
                                                 icon={<BsGithub size="28px" />}
                                             />
                                         </OutboundLink>

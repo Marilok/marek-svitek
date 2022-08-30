@@ -5,7 +5,7 @@ import Img from "../images/project-ip.png"
 import Hero from "../components/Hero.tsx"
 import Template from "../components/Template.tsx"
 import { Helmet } from "react-helmet";
-import { Heading,Text,Flex, Box,Center } from '@chakra-ui/react'
+import { Heading,Text,Flex, Box,Center, Container } from '@chakra-ui/react'
 
 // import "@fontsource/open-sans/600-normal.css"
 // import "@fontsource/open-sans/700-normal.css"
@@ -52,21 +52,26 @@ const page = () => {
         </Helmet>
 
         <Template>
-          <Center maxW="full" h="87vh">
+          {/* <Center maxW="full" h="87vh">
             <Text fontSize="6xl">Na tomto teprv pracuji.👷</Text>
-          </Center>
-          {/* <Heading as='h1'>
-                    Podnikání 🦄
-                </Heading>
-                <Text>
-                    Podnikání vidím, jako příležitost mít pozitivní dopad na tento svět.
-                </Text>
-                <Heading as='h1'>
-                    WebDev 💻
-                </Heading>
-                <Text>
-                    React.js, Gatsby, ChakraUI, Figma
-                </Text> */}
+          </Center> */}
+          <Container maxW={"8xl"}>
+            <Heading as="h1">Podnikání 🦄</Heading>
+            <Heading as="h2">Proč?</Heading>
+            <Text>
+              Podnikání vidím, jako příležitost mít pozitivní dopad na tento svět.
+            </Text>
+            <Heading as="h2">Aktivity</Heading>
+            <Text>
+
+            </Text>
+            <Heading as="h1">WebDev 💻</Heading>
+            <Heading as="h2">Tech Stack</Heading>
+            <Text>ReactJS, GatsbyJS, ChakraUI, Sass, Figma</Text>
+            <Heading as="h2">Aktivity</Heading>
+            <Heading as="h2">Work experience</Heading>
+            <Text>4 měsíce jsem měl možnost vyzkoušet práci v českém startupu Spectoda. Práce probíhala na bázi agilního vývoje. Pomocí ReactJS jsem vylepšoval a rozšiřoval progresivní webovou aplikaci (PWA) na ovládání chytrých RGB lamp Nara.</Text>
+          </Container>
         </Template>
       </>
     );
