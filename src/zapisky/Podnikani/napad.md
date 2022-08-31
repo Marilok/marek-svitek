@@ -121,16 +121,48 @@ A nebo...
 
 ![Myšlenkov mapa](../Assets/Podnikani/Images/Myslenkova_mapa.png)
 
-## 8. Přidat se k existujícímu nápadu
-- Ve skupinách na sítích často lidé hledají co-foundera
+## 8. Spojit 2 náhodně vylosovaná slova
+
+## 9. Generátor nápadů
+[Startup Ideas powered by OpenAI](https://ideasai.com/)
+
+## 10. Přidat se k existujícímu nápadu
+- Podívat se okolo sebe, zda někdo nerozjíždí projekt a nehledá co-foundera
+- Kde potkat takové lidi?
+	- Tvé okolí
+	- Sociální sítě (startupové a podnikatelské skupiny na FB)
+	- Podnikatelské akce
+		- [New Generation of Founders](http://www.ngof.cz/)
+		- [Podnikni to!](https://podniknito.cz/)
+		- [Soutěž & Podnikej](https://soutezapodnikej.cz/)
+		- [Můžeš podnikat](https://muzespodnikat.cz/)
+		- [czech.events](https://czech.events/)
+		- TEDx
+		- [Inovační a podnikatelská centra od krajů](https://www.ynovate.cz/cz/kontaktujte-nas#map)
+		- Podnikatelská centra od VŠ
+	- A další zdroje pro inspiraci
+		- Sledovat zdroje na podnikatelské scéně (weby, zahraničí, blogy...)
+		- Startup weekendy - [Techstars Startup Weekend](https://www.techstars.com/communities/startup-weekend)
+		- Hackhatony
+			- [Hackhaton.com Czech Republic](https://www.hackathon.com/country/czech-republic)
+			- [Hackathons.cz](https://www.hackathons.cz/)
+			- [CEE Hacks](https://www.ceehacks.com/)
+	- A ještě další zdroje
+		- [100+ sources for innovation professionals - Board of Innovation](https://www.boardofinnovation.com/blog/100-sources-that-every-innovation-professional-should-know-about/)
+
 
 > [!danger] Pozor!
 > Projekt by nám měl sedět s osobními hodnotami a vizí
-> [Hodnoty, emoce, potřeby, vize](Hodnoty,%20emoce,%20potřeby,%20vize.md)
+[Hodnoty, emoce, potřeby, vize](Hodnoty,%20emoce,%20potřeby,%20vize.md)
 
-## 9. Franšíza
+## 11. Franšíza
 - Solidní byznys, ale většinou potřeba větší kapitál
 
 ## Zdroje
 - [Jak najít dokonalý podnikatelský nápad? | JICmagazín](https://www.jic.cz/magazin/jicblog-jak-najit-dokonaly-podnikatelsky-napad/)
-- [Nakopni svůj nápad | JICskill](https://skill.jic.cz/)
+- [LEKCE 1: Od nápadu k podnikání | JICskill](https://skill.jic.cz/lekce/lekce-1/)
+- [# LEKCE 2: Kde vzít nápad? | JICskill](https://skill.jic.cz/lekce/lekce-2/)
+- [Jak na to: Vyraz na akce, kde jsou další podnikavci jako ty](https://startupbox.app/howto/vyraz-na-akce-kde-jsou-dalsi-podnikavci-jako-ty)
+- [Hledej implulzy (nejen) ve startupové scéně](https://startupbox.app/howto/hledej-impulzy-nejen-ve-startupove-scene)
+- [How to Get Startup Ideas - Y Combinator](https://youtu.be/uvw-u99yj8w)
+- [How to Get Startup Ideas](http://www.paulgraham.com/startupideas.html)
