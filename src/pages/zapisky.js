@@ -5,16 +5,35 @@ import Template from "../components/Template.tsx";
 import BlogCard from "../components/BlogCard.tsx";
 import { Helmet } from "react-helmet";
 import { Text, Center } from "@chakra-ui/react";
-import { graphql } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 
 // import "@fontsource/open-sans/600-normal.css"
 // import "@fontsource/open-sans/700-normal.css"
 // import "@fontsource/open-sans/800-normal.css"
 
-const page = ({ data: { allMarkdownRemark } }) => {
-  const { edges } = allMarkdownRemark;
-  console.log(edges);
+const Page = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              slug
+              title
+              category
+              image {
+                childImageSharp {
+                  gatsbyImageData
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
+  const edges = data.allMarkdownRemark;
   const posts = edges.map((edge) => edge.node);
   return (
     <>
@@ -52,27 +71,4 @@ const page = ({ data: { allMarkdownRemark } }) => {
     </>
   );
 };
-
-export const query = graphql`
-  query {
-    allMarkdownRemark {
-      edges {
-        node {
-          frontmatter {
-            slug
-            title
-
-            category
-            image {
-              childImageSharp {
-                gatsbyImageData
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`;
-
-export default page;
+export default Page;
