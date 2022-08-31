@@ -5,7 +5,15 @@ import Img from "../images/project-ip.png";
 import Hero from "../components/Hero.tsx";
 import Template from "../components/Template.tsx";
 import { Helmet } from "react-helmet";
-import { Heading, Text, Flex, Box, Center, Container } from "@chakra-ui/react";
+import {
+  Heading,
+  Text,
+  Flex,
+  Box,
+  Center,
+  Container,
+  Stack,
+} from "@chakra-ui/react";
 import { OutboundLink } from "gatsby-plugin-google-gtag";
 
 // import "@fontsource/open-sans/600-normal.css"
@@ -30,13 +38,15 @@ const page = () => {
 
       <Template>
         <Center maxW="full" h="87vh">
-          <Text fontSize="6xl">Na tomto teprv pracuji.👷</Text>
-          <OutboundLink
-            target="_blank"
-            href={"https://www.linkedin.com/in/mareksvitek/"}
-          >
-            <Text fontSize="3xl">Zatím můžeš mrknout na můj LinkedIn.</Text>
-          </OutboundLink>
+          <Stack>
+            <Text fontSize="6xl">Na tomto teprv pracuji.👷</Text>\
+            <OutboundLink
+              target="_blank"
+              href={"https://www.linkedin.com/in/mareksvitek/"}
+            >
+              <Text fontSize="3xl">Zatím můžeš mrknout na můj LinkedIn.</Text>
+            </OutboundLink>
+          </Stack>
         </Center>
       </Template>
     </>

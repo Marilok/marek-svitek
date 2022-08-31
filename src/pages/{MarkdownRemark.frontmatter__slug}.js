@@ -21,13 +21,12 @@ export default function BlogPostTemplate({ data: { markdownRemark } }) {
         />
         <meta name="theme-color" content="#01579B" />
       </Helmet>
-      <Template>
-        <Prose>
+      <Template bg={useColorModeValue("var(--chakra-colors-blue-50)", "")}>
+        <Prose py={4}>
           <Container
             bg={useColorModeValue("white", "gray.900")}
             boxShadow={"md"}
             maxW="5xl"
-            my={10}
             p={8}
           >
             <Heading textAlign={"center"} as="h1">

@@ -33,8 +33,8 @@ const Page = () => {
       }
     }
   `);
-  const edges = data.allMarkdownRemark;
-  const posts = edges.map((edge) => edge.node);
+  const postsTemp = data.allMarkdownRemark.edges;
+  const posts = postsTemp.map((edge) => edge.node);
   return (
     <>
       <Helmet>
@@ -51,7 +51,7 @@ const Page = () => {
       </Helmet>
 
       <Template>
-        <Center maxW="full" h="87vh">
+        <Center maxW="full">
           {posts.map(
             (post) => (
               console.log(post),
