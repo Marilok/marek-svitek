@@ -14,6 +14,7 @@ import { getImage } from "gatsby-plugin-image";
 
 const page = ({ data: { allMarkdownRemark } }) => {
   const { edges } = allMarkdownRemark;
+  console.log(edges);
   const posts = edges.map((edge) => edge.node);
   return (
     <>
@@ -41,7 +42,9 @@ const page = ({ data: { allMarkdownRemark } }) => {
                   boxShadow={"md"}
                   key={post.frontmatter.title}
                   title={post.frontmatter.title}
-                  imgSrc={getImage(post.frontmatter.image)}
+                  imgSrc={getImage(
+                    post.frontmatter.image.childImageSharp.gatsbyImageData
+                  )}
                   slug={post.frontmatter.slug}
                   category={post.frontmatter.category}
                 />
