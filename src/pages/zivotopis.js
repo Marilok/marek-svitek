@@ -6,31 +6,13 @@ import Hero from "../components/Hero.tsx";
 import Template from "../components/Template.tsx";
 import { Helmet } from "react-helmet";
 import { Heading, Text, Flex, Box, Center, Container } from "@chakra-ui/react";
+import { OutboundLink } from "gatsby-plugin-google-gtag";
 
 // import "@fontsource/open-sans/600-normal.css"
 // import "@fontsource/open-sans/700-normal.css"
 // import "@fontsource/open-sans/800-normal.css"
 
 const page = () => {
-  const projects = [
-    {
-      name: "Dog trainer",
-      siteURL: "https://dog-trainer.vercel.app/",
-      codeURL: "https://github.com/Marilok/dog-trainer",
-    },
-    {
-      name: "IP Adress Tracker",
-      siteURL:
-        "https://ip-address-tracker-master-git-main.marilokms.vercel.app/",
-      codeURL: "https://github.com/Marilok/ip-address-tracker-master",
-    },
-    {
-      name: "Piškvorky",
-      siteURL: "https://tic-tac-toe-delta-ten.vercel.app/",
-      codeURL: "https://github.com/Marilok/Tic-Tac-Toe",
-    },
-  ];
-
   return (
     <>
       <Helmet>
@@ -49,6 +31,12 @@ const page = () => {
       <Template>
         <Center maxW="full" h="87vh">
           <Text fontSize="6xl">Na tomto teprv pracuji.👷</Text>
+          <OutboundLink
+            target="_blank"
+            href={"https://www.linkedin.com/in/mareksvitek/"}
+          >
+            <Text fontSize="3xl">Zatím můžeš mrknout na můj LinkedIn.</Text>
+          </OutboundLink>
         </Center>
       </Template>
     </>
