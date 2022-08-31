@@ -3,7 +3,7 @@ import * as React from "react";
 import Template from "../components/Template.tsx";
 import { Helmet } from "react-helmet";
 import { Prose } from "@nikolovlazar/chakra-ui-prose";
-import { Heading, Container } from "@chakra-ui/react";
+import { Heading, Container, useColorModeValue } from "@chakra-ui/react";
 
 export default function BlogPostTemplate({ data: { markdownRemark } }) {
   const { frontmatter, html } = markdownRemark;
@@ -23,7 +23,13 @@ export default function BlogPostTemplate({ data: { markdownRemark } }) {
       </Helmet>
       <Template>
         <Prose>
-          <Container maxW="5xl" bg={"gray.50"} my={10} p={8}>
+          <Container
+            bg={useColorModeValue("white", "gray.900")}
+            boxShadow={"md"}
+            maxW="5xl"
+            my={10}
+            p={8}
+          >
             <Heading textAlign={"center"} as="h1">
               {frontmatter.title}
             </Heading>

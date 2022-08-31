@@ -4,7 +4,7 @@ import "@fontsource/open-sans";
 import Template from "../components/Template.tsx";
 import BlogCard from "../components/BlogCard.tsx";
 import { Helmet } from "react-helmet";
-import { Text, Center, useColorModeValue } from "@chakra-ui/react";
+import { Text, Center } from "@chakra-ui/react";
 import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 
@@ -38,13 +38,9 @@ const page = ({ data: { allMarkdownRemark } }) => {
               console.log(post),
               (
                 <BlogCard
-                  bg={useColorModeValue("white", "gray.900")}
-                  boxShadow={"md"}
                   key={post.frontmatter.title}
                   title={post.frontmatter.title}
-                  imgSrc={getImage(
-                    post.frontmatter.image.childImageSharp.gatsbyImageData
-                  )}
+                  imgSrc={getImage(post.frontmatter.image)}
                   slug={post.frontmatter.slug}
                   category={post.frontmatter.category}
                 />
