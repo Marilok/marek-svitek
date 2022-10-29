@@ -122,7 +122,7 @@ export default function contact() {
                                                 variant="ghost"
                                                 size="lg"
                                                 isRound={true}
-                                                _hover={{ bg: useColorModeValue('pink.200', 'pink.400')}}
+                                                //_hover={{ bg: useColorModeValue('pink.200', 'pink.400')}}
                                                 icon={< BsInstagram size="28px" />}
                                             />
                                         </OutboundLink>
@@ -133,7 +133,7 @@ export default function contact() {
                                                 variant="ghost"
                                                 size="lg"
                                                 isRound={true}
-                                                _hover={{ bg: useColorModeValue('blue.50', 'blue.400')}}
+                                                //_hover={{ bg: useColorModeValue('blue.50', 'blue.400')}}
                                                 icon={<BsGithub size="28px" />}
                                             />
                                         </OutboundLink>
