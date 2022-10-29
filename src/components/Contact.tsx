@@ -70,7 +70,7 @@ export default function contact() {
 
                                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                                         <VStack pl={0} spacing={3} alignItems="flex-start">
-                                            <OutboundLink target="_blank" href={'mailto:kontakt@mareksvitek.cz/'}>
+                                            <OutboundLink target="_blank" href={'mailto:marek@mareksvitek.cz/'}>
                                                 <Button
                                                     size="md"
                                                     height="48px"
@@ -79,7 +79,7 @@ export default function contact() {
                                                     colorScheme='white'
                                                     justifyContent={'start'}
                                                     _hover={{ bg: '#0D74FF' }} leftIcon={<MdEmail color="#1970F1" size="20px" />}>
-                                                    kontakt@mareksvitek.cz
+                                                    marek@mareksvitek.cz
                                                 </Button>
                                             </OutboundLink>
 
