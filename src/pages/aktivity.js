@@ -154,7 +154,7 @@ const page = () => {
         <meta name="theme-color" content="#01579B" />
         <meta charSet="utf-8" />
         <html lang="cs" />
-        <title>Projekty | Marek Svitek - Svíťa</title>
+        <title>Aktivity | Marek Svitek - Svíťa</title>
         <meta name="description" content="Ahoj!  &#128075; &#128187;" />
         <meta
           name="viewport"
