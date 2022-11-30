@@ -56,7 +56,7 @@ const page = () => {
     },
 
     {
-      title: "Stáž React App Developer",
+      title: "Stáž jako React App Developer",
       description:
         "Během stáže jsem spoluvyvíjel UI aplikace pro ovládání chytrých lamp ve startupu Spectoda. Pracoval jsem v ReactJS.",
       link: "https://spectoda.com/",

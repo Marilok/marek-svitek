@@ -4,7 +4,7 @@ import "@fontsource/open-sans";
 import Template from "../components/Template.tsx";
 import BlogCard from "../components/BlogCard.tsx";
 import { Helmet } from "react-helmet";
-import { Text, Center } from "@chakra-ui/react";
+import { Text, Center, Wrap, WrapItem } from "@chakra-ui/react";
 import { graphql, useStaticQuery } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 
@@ -22,11 +22,7 @@ const Page = () => {
               slug
               title
               category
-              image {
-                childImageSharp {
-                  gatsbyImageData
-                }
-              }
+              image
             }
           }
         }
@@ -51,22 +47,24 @@ const Page = () => {
       </Helmet>
 
       <Template>
-        <Center maxW="full">
+        <Wrap align="center" justify="center" spacing={5}>
           {posts.map(
             (post) => (
               console.log(post),
               (
-                <BlogCard
-                  key={post.frontmatter.title}
-                  title={post.frontmatter.title}
-                  imgSrc={getImage(post.frontmatter.image)}
-                  slug={post.frontmatter.slug}
-                  category={post.frontmatter.category}
-                />
+                <WrapItem>
+                  <BlogCard
+                    key={post.frontmatter.title}
+                    title={post.frontmatter.title}
+                    imgSrc={getImage(post.frontmatter.image)}
+                    slug={post.frontmatter.slug}
+                    category={post.frontmatter.category}
+                  />
+                </WrapItem>
               )
             )
           )}
-        </Center>
+        </Wrap>
       </Template>
     </>
   );

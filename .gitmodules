@@ -1,0 +1,9 @@
+[submodule "zapisky"]
+	path = zapisky
+	url = https://github.com/Marilok/zapisky.git
+[submodule "src/pages/zapisky"]
+	path = src/pages/zapisky
+	url = https://github.com/Marilok/zapisky
+[submodule "src/zapisky"]
+	path = src/zapisky
+	url = https://github.com/Marilok/zapisky

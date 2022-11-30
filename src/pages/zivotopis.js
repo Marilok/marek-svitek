@@ -13,6 +13,7 @@ import {
   Center,
   Container,
   Stack,
+  Link,
 } from "@chakra-ui/react";
 import { OutboundLink } from "gatsby-plugin-google-gtag";
 
@@ -39,12 +40,14 @@ const page = () => {
       <Template>
         <Center maxW="full" h="87vh">
           <Stack>
-            <Text fontSize="6xl">Na tomto teprv pracuji.👷</Text>\
+            <Text fontSize="6xl">Na tomto teprv pracuji. 👷</Text>
             <OutboundLink
               target="_blank"
               href={"https://www.linkedin.com/in/mareksvitek/"}
             >
-              <Text fontSize="3xl">Zatím můžeš mrknout na můj LinkedIn.</Text>
+              <Link as={"textPath"} fontSize="3xl">
+                Zatím můžeš mrknout na můj LinkedIn.
+              </Link>
             </OutboundLink>
           </Stack>
         </Center>
