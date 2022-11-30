@@ -22,7 +22,7 @@ export default function BlogCard({
       <Link to={slug}>
         <Box
           maxW={"445px"}
-          w={"full"}
+          w={{ md: "md", sm: "sm", lg: "lg" }}
           bg={useColorModeValue("white", "gray.900")}
           boxShadow={"2xl"}
           rounded={"md"}

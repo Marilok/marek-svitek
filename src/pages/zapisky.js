@@ -22,7 +22,11 @@ const Page = () => {
               slug
               title
               category
-              image
+            }
+            image {
+              childImageSharp {
+                gatsbyImageData
+              }
             }
           }
         }
@@ -47,16 +51,24 @@ const Page = () => {
       </Helmet>
 
       <Template>
-        <Wrap align="center" justify="center" spacing={5}>
+        <Wrap
+          align="center"
+          justify="center"
+          spacing={5}
+          h="full"
+          overflow={"visible"}
+        >
           {posts.map(
             (post) => (
               console.log(post),
+              console.log("hi"),
+              console.log(post.frontmatter.image),
               (
                 <WrapItem>
                   <BlogCard
                     key={post.frontmatter.title}
                     title={post.frontmatter.title}
-                    imgSrc={getImage(post.frontmatter.image)}
+                    imgSrc={post.image.childImageSharp.gatsbyImageData}
                     slug={post.frontmatter.slug}
                     category={post.frontmatter.category}
                   />

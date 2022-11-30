@@ -21,7 +21,7 @@ export default function BlogPostTemplate({ data: { markdownRemark } }) {
         />
         <meta name="theme-color" content="#01579B" />
       </Helmet>
-      <Template bg={useColorModeValue("var(--chakra-colors-blue-50)", "")}>
+      <Template>
         <Prose py={4}>
           <Container
             bg={useColorModeValue("white", "gray.900")}

@@ -50,7 +50,6 @@ export default function blogPostWithImage(props) {
       overflow={"hidden"}
     >
       <OutboundLink
-        textDecoration="none"
         target={props.link ? "_blank" : ""}
         href={props.link ? props.link : "#"}
       >

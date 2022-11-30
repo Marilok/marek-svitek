@@ -38,8 +38,7 @@ import {
   BsLinkedin,
   BsFillArrowRightCircleFill,
 } from "react-icons/bs";
-import heroSrc from "../images/hero.png";
-import dogSrc from "../images/dog.jpg";
+//@ts-ignore
 import { OutboundLink } from "gatsby-plugin-google-gtag";
 import { Logo } from "../images/Logo";
 
@@ -202,7 +201,7 @@ export default function contact() {
                     // h={'100%'}
                     boxSize="150px"
                     borderRadius="full"
-                    src={heroSrc}
+                    src="../images/hero.png"
                   />
                   <Logo variant={"twoLines"} />
                 </VStack>
@@ -225,9 +224,29 @@ export default function contact() {
                     // h={'100%'}
                     boxSize="150px"
                     borderRadius="full"
-                    src={dogSrc}
+                    src="../images/dog.jpg"
                   />
-                  <Logo variant={"annie"} />
+                  <VStack spacing={4}>
+                    <Text
+                      as={"span"}
+                      style={{ fontFamily: "Barlow", fontWeight: 900 }}
+                    >
+                      Happiness manager
+                    </Text>
+                    <Text
+                      as={"span"}
+                      color={"pink.400"}
+                      style={{
+                        fontFamily: "Caveat",
+                        position: "absolute",
+                        fontSize: "1.2em",
+                        fontWeight: 500,
+                        transform: "rotate(-10deg) translateY(-2px)",
+                      }}
+                    >
+                      Annie
+                    </Text>
+                  </VStack>
                 </VStack>
               </Box>
             </Flex>

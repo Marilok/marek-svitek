@@ -46,26 +46,5 @@ export const Logo = (props: any) => {
         </Text>
       </Text>
     );
-  } else if (props.variant == "annie") {
-    return (
-      <VStack spacing={4}>
-        <Text as={"span"} style={{ fontFamily: "Barlow", fontWeight: 900 }}>
-          Happiness manager
-        </Text>
-        <Text
-          as={"span"}
-          color={"pink.400"}
-          style={{
-            fontFamily: "Caveat",
-            position: "absolute",
-            fontSize: "1.2em",
-            fontWeight: 500,
-            transform: "rotate(-10deg) translateY(-2px)",
-          }}
-        >
-          Annie
-        </Text>
-      </VStack>
-    );
   }
 };
