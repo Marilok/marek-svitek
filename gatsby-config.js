@@ -44,7 +44,6 @@ module.exports = {
         path: `${__dirname}/src/zapisky`,
       },
     },
-    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
