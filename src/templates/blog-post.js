@@ -6,6 +6,7 @@ import { Prose } from "@nikolovlazar/chakra-ui-prose";
 import { Heading, Container, useColorModeValue } from "@chakra-ui/react";
 
 export default function BlogPostTemplate({ data: { markdownRemark } }) {
+  // console.log(context);
   const { frontmatter, html } = markdownRemark;
   return (
     <>
@@ -14,7 +15,8 @@ export default function BlogPostTemplate({ data: { markdownRemark } }) {
         <meta charSet="utf-8" />
         <html lang="cs" />
         <title>{frontmatter.title} | Marek Svitek</title>
-        {/* <meta name="description" content="Ahoj!  &#128075; &#128187;" /> */}
+        <title>Marek Svitek</title>
+        <meta name="description" content="Ahoj!  &#128075; &#128187;" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
@@ -40,25 +42,12 @@ export default function BlogPostTemplate({ data: { markdownRemark } }) {
   );
 }
 export const pageQuery = graphql`
-  query ($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query ($pageId: String!) {
+    markdownRemark(id: { eq: $pageId }) {
       html
       frontmatter {
         title
-        slug
       }
     }
   }
 `;
-
-// export const pageQuery = graphql`
-//   query($slug: String!) {
-//     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
-//       html
-//       frontmatter {
-//         date(formatString: "MMMM DD, YYYY")
-//         slug
-//         title
-//       }
-//     }
-//   }
