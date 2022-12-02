@@ -7,6 +7,7 @@ import { Heading, Container, useColorModeValue } from "@chakra-ui/react";
 
 export default function BlogPostTemplate({ data: { markdownRemark } }) {
   const { frontmatter, html } = markdownRemark;
+  console.log(markdownRemark);
   return (
     <>
       <Helmet>
@@ -40,7 +41,7 @@ export default function BlogPostTemplate({ data: { markdownRemark } }) {
   );
 }
 export const pageQuery = graphql`
-  query ($id: String!) {
+  query Post($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
@@ -50,3 +51,15 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+// export const pageQuery = graphql`
+//   query($slug: String!) {
+//     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+//       html
+//       frontmatter {
+//         date(formatString: "MMMM DD, YYYY")
+//         slug
+//         title
+//       }
+//     }
+//   }

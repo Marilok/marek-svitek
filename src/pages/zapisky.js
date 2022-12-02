@@ -35,6 +35,7 @@ const Page = () => {
   `);
   const postsTemp = data.allMarkdownRemark.edges;
   const posts = postsTemp.map((edge) => edge.node);
+  console.log(posts);
   return (
     <>
       <Helmet>
