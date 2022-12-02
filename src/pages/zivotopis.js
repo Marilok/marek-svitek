@@ -1,20 +1,9 @@
 import * as React from "react";
 import "../style.sass";
 import "@fontsource/open-sans";
-import Img from "../images/project-ip.png";
-import Hero from "../components/Hero.tsx";
 import Template from "../components/Template.tsx";
 import { Helmet } from "react-helmet";
-import {
-  Heading,
-  Text,
-  Flex,
-  Box,
-  Center,
-  Container,
-  Stack,
-  Link,
-} from "@chakra-ui/react";
+import { Text, Center, Link, Stack } from "@chakra-ui/react";
 import { OutboundLink } from "gatsby-plugin-google-gtag";
 
 // import "@fontsource/open-sans/600-normal.css"

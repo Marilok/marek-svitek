@@ -4,19 +4,12 @@ import "@fontsource/open-sans";
 import Template from "../components/Template.tsx";
 import BlogCard from "../components/BlogCard.tsx";
 import { Helmet } from "react-helmet";
-import { Text, Center, Wrap, WrapItem } from "@chakra-ui/react";
-import { graphql, useStaticQuery } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
-
-// import "@fontsource/open-sans/600-normal.css"
-// import "@fontsource/open-sans/700-normal.css"
-// import "@fontsource/open-sans/800-normal.css"
+import { Wrap, WrapItem } from "@chakra-ui/react";
+import { graphql } from "gatsby";
 
 const Page = ({ data: { allMarkdownRemark } }) => {
-
   const postsTemp = allMarkdownRemark.edges;
   const posts = postsTemp.map((edge) => edge.node);
-  console.log(posts);
   return (
     <>
       <Helmet>
@@ -40,24 +33,17 @@ const Page = ({ data: { allMarkdownRemark } }) => {
           h="full"
           overflow={"visible"}
         >
-          {posts.map(
-            (post) => (
-              console.log(post),
-              console.log("hi"),
-              console.log(post.frontmatter.image),
-              (
-                <WrapItem>
-                  <BlogCard
-                    key={post.frontmatter.title}
-                    title={post.frontmatter.title}
-                    imgSrc={post.image.childImageSharp.gatsbyImageData}
-                    slug={post.frontmatter.slug}
-                    category={post.frontmatter.category}
-                  />
-                </WrapItem>
-              )
-            )
-          )}
+          {posts.map((post) => (
+            <WrapItem>
+              <BlogCard
+                key={post.frontmatter.title}
+                title={post.frontmatter.title}
+                imgSrc={post.image.childImageSharp.gatsbyImageData}
+                slug={post.frontmatter.slug}
+                category={post.frontmatter.category}
+              />
+            </WrapItem>
+          ))}
         </Wrap>
       </Template>
     </>
@@ -67,21 +53,21 @@ export default Page;
 
 export const pageQuery = graphql`
   query {
-      allMarkdownRemark {
-        edges {
-          node {
-            frontmatter {
-              slug
-              title
-              category
-            }
-            image {
-              childImageSharp {
-                gatsbyImageData
-              }
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            slug
+            title
+            category
+          }
+          image {
+            childImageSharp {
+              gatsbyImageData
             }
           }
         }
       }
     }
+  }
 `;

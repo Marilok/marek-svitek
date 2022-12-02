@@ -1,15 +1,8 @@
 import * as React from "react";
-// import "../style.sass"
 import "@fontsource/open-sans";
-import Img from "../images/project-ip.png";
 import Hero from "../components/Hero.tsx";
 import Template from "../components/Template.tsx";
-import Features from "../components/Features.tsx";
 import { Helmet } from "react-helmet";
-
-// import "@fontsource/open-sans/600-normal.css"
-// import "@fontsource/open-sans/700-normal.css"
-// import "@fontsource/open-sans/800-normal.css"
 
 const page = () => {
   return (

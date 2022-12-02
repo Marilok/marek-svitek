@@ -24,14 +24,7 @@ import {
   ListItem,
   Spacer,
 } from "@chakra-ui/react";
-import {
-  MdPhone,
-  MdEmail,
-  MdLocationOn,
-  MdFacebook,
-  MdOutlineEmail,
-} from "react-icons/md";
-import { ArrowForwardIcon } from "@chakra-ui/icons";
+import { MdEmail, MdLocationOn } from "react-icons/md";
 import {
   BsGithub,
   BsInstagram,
@@ -41,6 +34,7 @@ import {
 //@ts-ignore
 import { OutboundLink } from "gatsby-plugin-google-gtag";
 import { Logo } from "../images/Logo";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function contact() {
   const LinkIcon = (href, aria, icon) => {
@@ -71,38 +65,45 @@ export default function contact() {
         p={{ sm: 5, md: 5, lg: 16 }}
       >
         <Box p={4}>
-          <Flex direction={{ sm: "column", md: "row", lg: "row" }}>
-            <Box mr={{ sm: 0, md: 12, lg: 28 }}>
+          <Flex direction={{ base: "column", md: "row", lg: "row" }}>
+            <Box
+              mr={{ sm: 0, md: 12, lg: 28 }}
+              display="flex"
+              justifyContent="space-around"
+              flexDirection="column"
+              alignItems="left"
+              style={{ gap: "var(--chakra-space-6)" }}
+            >
               <Heading>Pojďme spolu něco tvořit!</Heading>
-
-              <Text mt={4}>
-                <b>Neváhej se mě kontaktovat třeba z těchto důvodů:</b>
-              </Text>
-              <List ml={4}>
-                <ListItem>
-                  <ListIcon
-                    as={BsFillArrowRightCircleFill}
-                    color={useColorModeValue("blue.500", "pink.400")}
-                  />
-                  Jsi podnikavý a rád tvoříš 🏗️
-                </ListItem>
-                <ListItem>
-                  <ListIcon
-                    as={BsFillArrowRightCircleFill}
-                    color={useColorModeValue("blue.500", "pink.400")}
-                  />
-                  Potřebuješ zbrusu nový <i>~blazing fast~</i> web 🚀
-                </ListItem>
-                <ListItem>
-                  <ListIcon
-                    as={BsFillArrowRightCircleFill}
-                    color={useColorModeValue("blue.500", "pink.400")}
-                  />
-                  ... a nebo jakýkoliv jiný důvod 😜
-                </ListItem>
-              </List>
-
-              <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }} ml={2}>
+              <div>
+                <Text>
+                  <b>Neváhej se mě kontaktovat třeba z těchto důvodů:</b>
+                </Text>
+                <List ml={4}>
+                  <ListItem>
+                    <ListIcon
+                      as={BsFillArrowRightCircleFill}
+                      color={useColorModeValue("blue.500", "pink.400")}
+                    />
+                    Jsi podnikavý a rád tvoříš 🏗️
+                  </ListItem>
+                  <ListItem>
+                    <ListIcon
+                      as={BsFillArrowRightCircleFill}
+                      color={useColorModeValue("blue.500", "pink.400")}
+                    />
+                    Potřebuješ zbrusu nový <i>~blazing fast~</i> web 🚀
+                  </ListItem>
+                  <ListItem>
+                    <ListIcon
+                      as={BsFillArrowRightCircleFill}
+                      color={useColorModeValue("blue.500", "pink.400")}
+                    />
+                    ... a nebo jakýkoliv jiný důvod 😜
+                  </ListItem>
+                </List>
+              </div>
+              <Box ml={2}>
                 <VStack pl={0} spacing={3} alignItems="flex-start">
                   <OutboundLink
                     target="_blank"
@@ -137,12 +138,7 @@ export default function contact() {
                   </OutboundLink>
                 </VStack>
               </Box>
-              <HStack
-                mt={{ lg: 10, md: 10 }}
-                spacing={5}
-                px={5}
-                alignItems="flex-start"
-              >
+              <HStack spacing={5} px={5} alignItems="flex-start">
                 <OutboundLink
                   target="_blank"
                   href={"https://www.linkedin.com/in/mareksvitek/"}
@@ -192,17 +188,20 @@ export default function contact() {
                 // overflow={'hidden'}
               >
                 <VStack>
-                  <Image
-                    boxShadow={"lg"}
-                    alt={"Hero Image"}
-                    align={"center"}
-                    fit={"cover"}
-                    // w={'auto'}
-                    // h={'100%'}
-                    boxSize="150px"
-                    borderRadius="full"
+                  <StaticImage
                     src="../images/hero.png"
+                    alt="Profile picture"
+                    placeholder="blurred"
+                    layout="constrained"
+                    width={148}
+                    aspectRatio={1 / 1}
+                    transformOptions={{ fit: "cover", cropFocus: "center" }}
+                    style={{
+                      borderRadius: "50%",
+                      boxShadow: "var(--chakra-shadows-lg)",
+                    }}
                   />
+
                   <Logo variant={"twoLines"} />
                 </VStack>
               </Box>
@@ -215,16 +214,18 @@ export default function contact() {
                 // overflow={'hidden'}
               >
                 <VStack>
-                  <Image
-                    boxShadow={"lg"}
-                    alt={"Dog"}
-                    align={"center"}
-                    fit={"cover"}
-                    // w={'auto'}
-                    // h={'100%'}
-                    boxSize="150px"
-                    borderRadius="full"
+                  <StaticImage
                     src="../images/dog.jpg"
+                    alt="White dog"
+                    placeholder="blurred"
+                    layout="constrained"
+                    width={148}
+                    aspectRatio={1 / 1}
+                    transformOptions={{ fit: "cover", cropFocus: "center" }}
+                    style={{
+                      borderRadius: "50%",
+                      boxShadow: "var(--chakra-shadows-lg)",
+                    }}
                   />
                   <VStack spacing={4}>
                     <Text
