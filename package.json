@@ -24,6 +24,7 @@
     "@fontsource/caveat": "^4.5.9",
     "@fontsource/open-sans": "^4.5.13",
     "@nikolovlazar/chakra-ui-prose": "^1.2.1",
+    "framer-motion": "^7.6.18",
     "gatsby": "^5.2.0",
     "gatsby-plugin-gatsby-cloud": "^5.2.0",
     "gatsby-plugin-google-gtag": "^5.2.0",
