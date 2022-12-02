@@ -12,28 +12,9 @@ import { getImage } from "gatsby-plugin-image";
 // import "@fontsource/open-sans/700-normal.css"
 // import "@fontsource/open-sans/800-normal.css"
 
-const Page = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      allMarkdownRemark {
-        edges {
-          node {
-            frontmatter {
-              slug
-              title
-              category
-            }
-            image {
-              childImageSharp {
-                gatsbyImageData
-              }
-            }
-          }
-        }
-      }
-    }
-  `);
-  const postsTemp = data.allMarkdownRemark.edges;
+const Page = ({ data: { allMarkdownRemark } }) => {
+
+  const postsTemp = allMarkdownRemark.edges;
   const posts = postsTemp.map((edge) => edge.node);
   console.log(posts);
   return (
@@ -83,3 +64,24 @@ const Page = () => {
   );
 };
 export default Page;
+
+export const pageQuery = graphql`
+  query {
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              slug
+              title
+              category
+            }
+            image {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+      }
+    }
+`;
