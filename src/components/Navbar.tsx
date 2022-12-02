@@ -278,7 +278,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "Co dělám",
-    href: "/projekty",
+    href: "/aktivity",
   },
   {
     label: "Zápisky znalostí",
