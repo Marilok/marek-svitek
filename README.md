@@ -4,9 +4,5 @@
   </a>
 </p>
 <h1 align="center">
-  My personal webpage
+  Marek's personal webpage
 </h1>
-
-## ⭐ About
-This is my first personal webpage. It has a portfolio for my projects and a form for getting in touch with me.<br>
-Website URL: https://www.mareksvitek.cz
