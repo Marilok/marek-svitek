@@ -10,24 +10,3 @@
 ## ⭐ About
 This is my first personal webpage. It has a portfolio for my projects and a form for getting in touch with me.<br>
 Website URL: https://www.mareksvitek.cz
-
-
-## 🎨 Design
-Design was made in Figma. <br>
-Design URL: https://www.figma.com/file/f6YuU8Ee8uCDfjZ4QwZdbl/Project
-
-## 🚀 Quick start
-
-1. **Start developing.**
-
-    Navigate into site’s directory and start it up.
-
-    ```shell
-    cd marek-svitek/
-    npm install gatsby react react-dom
-    npm run develop
-    ```
-
-2.  **Open the site**
-
-    Site is should be running at http://localhost:8000
