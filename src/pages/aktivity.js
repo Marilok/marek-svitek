@@ -1,9 +1,7 @@
 import * as React from "react";
-import "../style.sass";
 import "@fontsource/open-sans";
 import Template from "../components/Template.tsx";
 import ProjectCard from "../components/ProjectCard.tsx";
-import { Helmet } from "react-helmet";
 import { Wrap } from "@chakra-ui/react";
 import barkaUno from "../images/projects/barka-uno.jpg";
 import jicPojd from "../images/projects/jic - pojd.jpg";
@@ -13,6 +11,7 @@ import jicNova from "../images/projects/jic - nova.png";
 import sapBlog from "../images/projects/s&p - blog.png";
 import spectoda from "../images/projects/spectoda.png";
 import youniversity from "../images/projects/youniversity.png";
+import Seo from "../components/seo";
 
 const page = () => {
   const projects = [
@@ -149,36 +148,23 @@ const page = () => {
   ];
 
   return (
-    <>
-      <Helmet>
-        <meta name="theme-color" content="#01579B" />
-        <meta charSet="utf-8" />
-        <html lang="cs" />
-        <title>Aktivity | Marek Svitek - Svíťa</title>
-        <meta name="description" content="Ahoj!  &#128075; &#128187;" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
-        />
-        <meta name="theme-color" content="#01579B" />
-      </Helmet>
-
-      <Template>
-        <Wrap p={6} spacing={"1em"} align={"center"} justify={"center"}>
-          {projects.map((project, index) => (
-            <ProjectCard
-              title={project.title}
-              key={index}
-              imgSrc={project.imgSrc}
-              description={project.description}
-              tags={project.tags}
-              {...project}
-            ></ProjectCard>
-          ))}
-        </Wrap>
-      </Template>
-    </>
+    <Template>
+      <Wrap p={6} spacing={"1em"} align={"center"} justify={"center"}>
+        {projects.map((project, index) => (
+          <ProjectCard
+            title={project.title}
+            key={index}
+            imgSrc={project.imgSrc}
+            description={project.description}
+            tags={project.tags}
+            {...project}
+          ></ProjectCard>
+        ))}
+      </Wrap>
+    </Template>
   );
 };
+
+export const Head = () => <Seo title="Aktivity | Marek Svitek - Svíťa" />;
 
 export default page;

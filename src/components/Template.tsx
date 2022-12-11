@@ -1,5 +1,4 @@
 import * as React from "react";
-import "../style.sass";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
