@@ -16,24 +16,24 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://www.mareksvitek.cz`,
     title: `Marek Svitek`,
-    description: `Osobní stránka podnikavého studenta Svíťi.`,
+    description: `Osobní stránka podnikavého studenta Svíi.`,
   },
   plugins: [
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/blog/Podnikání`,
+        // name: `blog`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/content/blog/Assets`,
-    //     name: `assets`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog/Assets`,
+        // name: `assets`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
