@@ -27,7 +27,7 @@ Způsoby
 > 1. Produkt, který technicky nemohu zrealizovat
 > 2. Neznámé prostředí
 
-![Ikigai, Hedgehog](../Assets\Podnikání\napad\Images\Ikigai_Hedgehog.png)
+![Ikigai, Hedgehog](../Assets\Podnikání\Nápad\Images\Ikigai_Hedgehog.png)
 
 ## 2. Řešení problému
 Co trápí lidi? A mě?
@@ -69,7 +69,7 @@ Nebo...
 	- „JAK“ mu tuto hodnotu doručujete (Value Chain)
 	- „PROČ“ na tom budete vydělávat (Revenue Model)
 	  
-	  ![Kdo, co, jak a proč](../Assets/Podnikání/napad/Images/Kdo_co_jak_proc.png)
+	  ![Kdo, co, jak a proč](../Assets/Podnikání/Nápad/Images/Kdo_co_jak_proc.png)
 ## 4. Expert enough
 - Co umím na 1000/10 bodů
 - V čem se na vás obrací ostatní, že potřebují pomoci?
@@ -112,7 +112,7 @@ Nebo...
 - Jak dosáhneme toho, že daná věc bude více hledět na etické zásady?
 - Jak dosáhneme toho, že daná věc bude ještě krásnější?
 
-![Myslenkova_mapa](../Assets/Podnikání/napad/Images/Myslenkova_mapa.png)
+![Myslenkova_mapa](../Assets/Podnikání/Nápad/Images/Myslenkova_mapa.png)
 
 ## 8. Spojit 2 náhodně vylosovaná slova
 
