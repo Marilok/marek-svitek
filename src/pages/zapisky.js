@@ -8,7 +8,7 @@ import { graphql } from "gatsby";
 import Seo from "../components/seo";
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`;
+  // const siteTitle = data.site.siteMetadata?.title || `Title`;
   const posts = data.allMarkdownRemark.nodes;
   return (
     <Template>
@@ -24,7 +24,7 @@ const BlogIndex = ({ data, location }) => {
             <BlogCard
               key={post.frontmatter.title}
               title={post.frontmatter.title}
-              // imgSrc={post.image.childImageSharp.gatsbyImageData}
+              imgSrc={post.fields.image}
               slug={post.fields.slug}
               category={post.frontmatter.category}
             />

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 import {
   Box,
   Center,
@@ -8,6 +8,7 @@ import {
   Stack,
   Avatar,
   useColorModeValue,
+  Image,
 } from "@chakra-ui/react";
 import { Link } from "gatsby";
 
@@ -44,16 +45,12 @@ export default function BlogCard({
             pos={"relative"}
             overflow={"hidden"}
           >
-            <GatsbyImage
-              // src={
-              //   imgSrc
-              //     ? imgSrc
-              //     : "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-              // }
+            <Image
               alt="img"
               objectFit="cover"
-              //   style={{ objectFit: "cover" }}
-              image={imgSrc}
+              objectPosition={"center -40px"}
+              // style={{ objectFit: "cover" }}
+              src={imgSrc}
             />
           </Box>
           <Stack>

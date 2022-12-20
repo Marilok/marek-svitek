@@ -1,19 +1,16 @@
 ---
 title: "Jak získat podnikatelský nápad"
 slug: "/zapisky/podnikani/napad"
-path: "/zapisky/podnikani/napad/"
-category: "Podnikání"
+category: "podnikani"
 image: "https://images.unsplash.com/photo-1448745799564-e2c1ed534c94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 ---
 
-:::warning Nice
-Nápad 10 %, exekuce 90 % úspěchu.
-:::
+> [!NOTE] Dobrý nápad je jen začátek
+> Nápad 10 %, exekuce 90 % úspěchu.
 
 
-:::test Klíč k úspěchu
-Musíš vědět, jaký problém řešíš.
-:::
+> [!note] 
+> You need to know, what problem you're solving.
 
 ## 1. Intersekce
 Způsoby
@@ -27,7 +24,7 @@ Způsoby
 > 1. Produkt, který technicky nemohu zrealizovat
 > 2. Neznámé prostředí
 
-![Ikigai, Hedgehog](../Assets\Podnikání\Nápad\Images\Ikigai_Hedgehog.png)
+![Ikigai, Hedgehog](../Assets/Podnikání/napad/Images/Ikigai_Hedgehog.png)
 
 ## 2. Řešení problému
 Co trápí lidi? A mě?
@@ -40,8 +37,8 @@ Způsoby
 		- Co mu dělá problémy (jaká práce)?
 		- Kde stávající řešení nestačí?
 		- Za co by byli ochotni zaplatit?
-- [[Metody designu#Definice problému]]
-- [[Metody designu#Výzkumné]]
+- [Metody designu](Metody%20designu.md##Definice problému)
+- [Metody designu](Metody%20designu.md##Výzkumné)
   
   > [!danger] Pozor!
   > 1. Moc malé (niché) trhy
@@ -68,8 +65,8 @@ Nebo...
 	- „CO“ mu se svým produktem přinášíte (Value Proposition)
 	- „JAK“ mu tuto hodnotu doručujete (Value Chain)
 	- „PROČ“ na tom budete vydělávat (Revenue Model)
-	  
-	  ![Kdo, co, jak a proč](../Assets/Podnikání/Nápad/Images/Kdo_co_jak_proc.png)
+
+	  ![Kdo, co, jak a proč](../Assets/Podnikání/napad/Images/Kdo_co_jak_proc.png)
 ## 4. Expert enough
 - Co umím na 1000/10 bodů
 - V čem se na vás obrací ostatní, že potřebují pomoci?
@@ -112,7 +109,7 @@ Nebo...
 - Jak dosáhneme toho, že daná věc bude více hledět na etické zásady?
 - Jak dosáhneme toho, že daná věc bude ještě krásnější?
 
-![Myslenkova_mapa](../Assets/Podnikání/Nápad/Images/Myslenkova_mapa.png)
+![Myslenkova_mapa](../Assets/Podnikání/napad/Images/Myslenkova_mapa.png)
 
 ## 8. Spojit 2 náhodně vylosovaná slova
 
@@ -149,7 +146,7 @@ Nebo...
 
 > [!danger] Pozor!
 > Projekt by nám měl sedět s osobními hodnotami a vizí
-  [Hodnoty, emoce, potřeby, vize](Hodnoty,%20emoce,%20potřeby,%20vize.md)
+  [Hodnoty, emoce, potřeby, vize](Hodnoty,_emoce,_potřeby,_vize.md)
 
 ## 11. Franšíza
 - Solidní byznys, ale většinou potřeba větší kapitál
@@ -164,4 +161,4 @@ Nebo...
 - [How to Get Startup Ideas](http://www.paulgraham.com/startupideas.html)
 
 ## Next step
-[2 Konkurence](2%20Konkurence.md)
+[2 Konkurence](2_Konkurence.md)

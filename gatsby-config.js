@@ -1,3 +1,5 @@
+const path = require("node:path");
+
 /**
  * Configure your Gatsby site with this file.
  *
@@ -24,6 +26,13 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog/Podnikání`,
+        // name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog/Seberozvoj`,
         // name: `blog`,
       },
     },
@@ -58,6 +67,19 @@ module.exports = {
             },
           },
           `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+
+            // options: {
+            //   destinationDir: (f) =>
+            //     `${path.dirname(
+            //       path.relative(
+            //         path.join(__dirname, `content`, `blog`, `Assets`),
+            //         f.absolutePath
+            //       )
+            //     )}/${f.name}`,
+            // },
+          },
         ],
       },
     },

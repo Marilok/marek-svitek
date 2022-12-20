@@ -1,17 +1,16 @@
 ---
 title: "Před startem podnikání"
 slug: "/zapisky/podnikani/pred-startem"
-path: "/zapisky/podnikani/pred-startem/"
-category: "podnikání"
+category: "podnikani"
 image: "https://images.unsplash.com/photo-1525011268546-bf3f9b007f6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 ---
 
 ## Proč (S. Sinek, Why?)
 
-![Golden_circle](../Assets/Podnikání/Motivace/Images/Golden_circle.png)
+![Golden_circle](../Assets/Podnikání/motivace/Images/Golden_circle.png)
 
 - Měli bychom nejdříve proč
-	- *Proč chceme podnikat? Jaká je naše Motivace? A hodnoty?*
+	- *Proč chceme podnikat? Jaká je naše motivace? A hodnoty?*
 	- Slouží jako kompas k rozhodování (pohled z většího obrazu)
 		- [Decision making](../Seberozvoj/Decision%20making.md)
 	- Když pracujeme se svými hodnotami, pak happy job + life
@@ -26,17 +25,17 @@ image: "https://images.unsplash.com/photo-1525011268546-bf3f9b007f6a?ixlib=rb-1.
 	- V průběhu života se mění
 	- Naplněnost hodnot ovlivňuje tvoji náladu
 
-![Proč objevovat hodnoty?](../Assets/Podnikání/Motivace/why.png)
+![Proč objevovat hodnoty?](../Assets/Podnikání/motivace/why.png)
 
 ## Ikigai - smysl života
 
-![Ikigai](../Assets/Podnikání/Motivace/Images/Ikigai.png)
+![Ikigai](../Assets/Podnikání/motivace/Images/Ikigai.png)
 
-![Prezentace od JIC proč podnikat](../Assets/Podnikání/Motivace/Prezentace/JIC.pdf)
+![Prezentace od JIC proč podnikat](../Assets/Podnikání/motivace/Prezentace/JIC.pdf)
 
-![JIC prezentace proč 2](../Assets/Podnikání/Motivace/Prezentace/JIC%202.pptx)
+![JIC prezentace proč 2](../Assets/Podnikání/motivace/Prezentace/JIC_2.pptx)
 
-![Proč canvas?](../Assets/Podnikání/Motivace/Šablony/Proc_canvas.pdf)
+![Proč canvas?](../Assets/Podnikání/motivace/Šablony/Proc_canvas.pdf)
 
 ## Je vůbec startup pro mě?
 - Dobré si vyzkoušet na menším projektu nebo stáž ve startupu
@@ -65,7 +64,7 @@ image: "https://images.unsplash.com/photo-1525011268546-bf3f9b007f6a?ixlib=rb-1.
 - The self-directed nature of working as an entrepreneur opens up a new way of doing creative work that isn’t self evident in larger companies. Put another way, entrepreneurs are risk takers that reach for the stars.
 - To že nemám v odvětí background nevadí, ale je často i lepší, protože jsme "fresh minds", kteří chtějí řešit starý problém
 
-### Zase ta Motivace
+### Zase ta motivace
 - Nejčastější důvody v Nordics
 	- I saw a problem I wanted to solve
 	- I wanted to do something of my own
@@ -117,7 +116,7 @@ image: "https://images.unsplash.com/photo-1525011268546-bf3f9b007f6a?ixlib=rb-1.
 - [LEKCE 1: Od nápadu k podnikání | JICskill](https://skill.jic.cz/lekce/lekce-1/)
 - [Why to Not Not Start a Startup - Y Combinator](http://www.paulgraham.com/notnot.html)
 - [Before the Startup - Y Combinator](http://www.paulgraham.com/before.html)
-- [JIC_SC_Worklisty](../Assets/Podnikání/podnikateslky%20bootcamp/JIC_SC_Worklisty.pdf)
+- [JIC_SC_Worklisty](../Assets/Podnikání/podnikateslky_bootcamp/JIC_SC_Worklisty.pdf)
 - [Introduction | Starting Up](https://courses.minnalearn.com/en/courses/startingup/introduction/)
 
 ## Next step
@@ -125,4 +124,4 @@ image: "https://images.unsplash.com/photo-1525011268546-bf3f9b007f6a?ixlib=rb-1.
 
 ## Pracovní listy
 
-![JIC_why](../Assets/Podnikání/Motivace/Šablony/JIC_why.pdf)
+![JIC_why](../Assets/Podnikání/motivace/Šablony/JIC_why.pdf)
