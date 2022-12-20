@@ -1,7 +1,7 @@
 import * as React from "react";
 import "@fontsource/barlow";
 import "@fontsource/caveat";
-import { Text, ChakraProvider, VStack } from "@chakra-ui/react";
+import { Text, VStack } from "@chakra-ui/react";
 
 export const Logo = (props: any) => {
   if (props.variant == "twoLines") {
