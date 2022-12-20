@@ -102,8 +102,8 @@ Nebo...
 **Představ si, že...**
 - Vybereš si konkrétní věc nebo problém
 - Popřemýšlíš nad jejími částmi, účely a lidmi, kteří s danou věcí souvisí
-  
-  **Až to budeš mít, potom se ptej:**
+
+**Až to budeš mít, potom se ptej:**
 - Co se musí stát, aby to naplnilo naše cíle?
 - Co se musí stát, aby např. výroba daného produktu byla produktivní a efektivní?
 - Jak dosáhneme toho, že daná věc bude více hledět na etické zásady?
