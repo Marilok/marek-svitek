@@ -7,7 +7,7 @@ const theme = extendTheme(
   withProse({
     baseStyle: {
       li: {
-        my: "0",
+        my: 0,
       },
     },
   })
