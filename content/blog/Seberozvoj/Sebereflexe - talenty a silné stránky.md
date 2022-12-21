@@ -54,18 +54,22 @@ image_y: 0.5
 ## Jak je zjistit teoreticky
 ![3 talentové kruhy pro zjištění talentů a silných stránek](../Assets/Seberozvoj/Talenty/Images/Okruhy.png)
 ![Pokus s použitím modré jako pozadí](../Assets/Seberozvoj/Talenty/Images/pokus.png)
-- Existují 3 způsoby:
-	1. Testování
-		- ⊕ Skvělý rozkopávač
-		- ⊖ Barnumův efekt
-		- ⊖ Rozdílnost kvality a ceny
-	2. Sebeuvědomění
-		- ⊕ Autenticita
-		- ⊖ Potřeba opravdové a hluboké sebereflexe a sebeuvědomění
-	3. Zpětná vazba
-		- ⊕ Realita
-		- ⊖ Upřímnost a výstup mimo komfortní zónu
-- Nestačí spoléhat jen na jeden okruh (stranu), musíme znát všechny strany a najít si střed. Stejně jako nemůžeme u trojúhelníky vynechat jednu ze stran aby se nerozpadl.
+Existují 3 způsoby:
+1. Testování
+	- ⊕ Skvělý rozkopávač
+	- ⊖ Barnumův efekt
+	- ⊖ Rozdílnost kvality a ceny
+2. Sebeuvědomění
+	- ⊕ Autenticita
+	- ⊖ Potřeba opravdové a hluboké sebereflexe a sebeuvědomění
+3. Zpětná vazba
+	- ⊕ Realita
+	- ⊖ Upřímnost a výstup mimo komfortní zónu
+
+
+> [!warning] Chybějící strana trojúhelníku
+> Nestačí spoléhat jen na jeden způsob (stranu) zjišťování našich talentů, musíme znát všechny strany a najít si střed. Stejně jako nemůžeme u trojúhelníku vynechat jednu ze stran, jinak by se rozpadl.
+
 ## Jak je zjistit prakticky
 ### 1. Testování
 ![](../Assets/Seberozvoj/Talenty/Images/Okruhy_-_testy.png)
@@ -75,34 +79,31 @@ image_y: 0.5
 > [!warning] 
 > Není to svaté písmo. Když si je zopakujeme, často nám vyjdou různé výsledky
 
-| test   | cena |
-| ------ | ---- |
-| Belbin | Gallup     |
-- Konkrétní testy
-	- Gallup - profesionální, asi nejlepší
-		- [Vysvětlení rolí](../Assets/Seberozvoj/Talenty/Šablony/Gallup_vysvětlení.pdf)
-	- Belbinův test týmových rolí - pro spolupráci v týmu
-		- [Vysvětlení rolí](../Assets/Seberozvoj/Talenty/Šablony/Belbin_vysvětlení.pdf)
-		- [Zkrácený test](../Assets/Seberozvoj/Talenty/Šablony/Belbin_test.xlsx)
-	- Big 5 - zdar
-		- [Zkrácený test](../Assets/Seberozvoj/Talenty/Šablony/Big_5_test.pdf)
-		- [Answersheet](../Assets/Seberozvoj/Talenty/Šablony/Big%205%20Answersheet.xlsx)
-	-  16 Personalities - zdarma, ale nespolehlivý
-	- High5 - zdarma, docela kvalitní
-	- PrinciplesYou
-	- Redbull Wingfinder - netradiční
-	- VIA (Youth) Strengths
-	- Strengths profile
-	- Core Values Index
-	- DISC
-	- Leadership
-		- Leadership Legacy Assessment
-		- Leadership Circle Profile
-		- Leadership judgement indicator
-		- Leadershipové karty (18 000 Kč)
-	- Dynamika bohatství
-	- Pětilístek
-	- Love languages
+#### Všeobecné testy
+| Test               | Poznámka                                   | Cena | Materiály                                                                 |
+| ------------------ | ------------------------------------------ | ---- | ----------------------------------------------------------------------------- |
+| Gallup             | Profesionální, asi nejlepší                |      | [Vysvětlení rolí Gallupa](../Assets/Seberozvoj/Talenty/Šablony/Gallup_vysvětlení.pdf) |
+| Belbin             | Ideální pro zjištění rozdělení rolí v týmu |      | [Zkrácený test Belbina](../Assets/Seberozvoj/Talenty/Šablony/Belbin_test.xlsx) a [vysvětlení rolí Belbina](../Assets/Seberozvoj/Talenty/Šablony/Belbin_vysvětlení.pdf) |
+| Big 5              |                                            |      | [Zkrácený test Big 5](../Assets/Seberozvoj/Talenty/Šablony/Big_5_test.pdf) a [answersheet](../Assets/Seberozvoj/Talenty/Šablony/Big%205%20Answersheet.xlsx)                                                                             |
+| 16 personalities   | Zdarma, ale nespolehlivý                   |      |                                                                               |
+| High5              | Zdarma, docela kvalitní                    |      |                                                                               |
+| PrinciplesYou      |                                            |      |                                                                               |
+| RedBull Wingfinder |                                            |      |                                                                               |
+| VIA Strengths      | Existuje i v provedení Youth pro studenty  |      |                                                                               |
+| Strengths profile  |                                            |      |                                                                               |
+| Core Values Index  |                                            |      |                                                                               |
+| DISC               |                                            |      |                                                                               |
+| Dynamika bohatství |                                            |      |                                                                               |
+| Love languages     | Netradiční, ale hodí se do vztahů          |      |                                                                               |
+| Pětilístek                   |                                            |      |                                                                               |
+
+#### Leadershipové testy
+| Test                         | Poznámka | Cena |
+| ---------------------------- | -------- | ---- |
+| Leadership Legacy Assessment |          |      |
+|Leadership Circle Profile|          |      |
+|Leadership judgement indicator|          |      |
+|Leadershipové karty|          |18 000 Kč|
 ![Ukázka rozdělení talentů dle Gallupa](../Assets/Seberozvoj/Talenty/Images/Gallup.png)
 ### 2. Sebeuvědomění
 ![](../Assets/Seberozvoj/Talenty/Images/Okruhy_-_sebereflexe.png)
