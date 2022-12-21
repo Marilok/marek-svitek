@@ -22,24 +22,38 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/blog/Podnikání`,
+    //     // name: `blog`,
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/blog/Seberozvoj`,
+    //     // name: `blog`,
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/blog/Assets`,
+    //     // name: `assets`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog/Podnikání`,
-        // name: `blog`,
+        path: `${__dirname}/zapisky/Assets`,
+        // name: `assets`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog/Seberozvoj`,
-        // name: `blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog/Assets`,
+        path: `${__dirname}/zapisky`,
         // name: `assets`,
       },
     },
