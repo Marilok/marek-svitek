@@ -80,22 +80,22 @@ Existují 3 způsoby:
 > Není to svaté písmo. Když si je zopakujeme, často nám vyjdou různé výsledky
 
 #### Všeobecné testy
-| Test               | Poznámka                                   | Cena | Materiály                                                                 |
-| ------------------ | ------------------------------------------ | ---- | ----------------------------------------------------------------------------- |
-| Gallup             | Profesionální, asi nejlepší                |      | [Vysvětlení rolí Gallupa](../Assets/Seberozvoj/Talenty/Šablony/Gallup_vysvětlení.pdf) |
+| Test               | Poznámka                                   | Cena | Materiály                                                                                                                                                              |
+| ------------------ | ------------------------------------------ | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Gallup             | Profesionální, asi nejlepší                |      | [Vysvětlení rolí Gallupa](../Assets/Seberozvoj/Talenty/Šablony/Gallup_vysvětlení.pdf)                                                                                  |
 | Belbin             | Ideální pro zjištění rozdělení rolí v týmu |      | [Zkrácený test Belbina](../Assets/Seberozvoj/Talenty/Šablony/Belbin_test.xlsx) a [vysvětlení rolí Belbina](../Assets/Seberozvoj/Talenty/Šablony/Belbin_vysvětlení.pdf) |
-| Big 5              |                                            |      | [Zkrácený test Big 5](../Assets/Seberozvoj/Talenty/Šablony/Big_5_test.pdf) a [answersheet](../Assets/Seberozvoj/Talenty/Šablony/Big%205%20Answersheet.xlsx)                                                                             |
-| 16 personalities   | Zdarma, ale nespolehlivý                   |      |                                                                               |
-| High5              | Zdarma, docela kvalitní                    |      |                                                                               |
-| PrinciplesYou      |                                            |      |                                                                               |
-| RedBull Wingfinder |                                            |      |                                                                               |
-| VIA Strengths      | Existuje i v provedení Youth pro studenty  |      |                                                                               |
-| Strengths profile  |                                            |      |                                                                               |
-| Core Values Index  |                                            |      |                                                                               |
-| DISC               |                                            |      |                                                                               |
-| Dynamika bohatství |                                            |      |                                                                               |
-| Love languages     | Netradiční, ale hodí se do vztahů          |      |                                                                               |
-| Pětilístek                   |                                            |      |                                                                               |
+| Big 5              |                                            |      | [Zkrácený test Big 5](../Assets/Seberozvoj/Talenty/Šablony/Big_5_test.pdf) a [answersheet](../Assets/Seberozvoj/Talenty/Šablony/Big_Answersheet.xlsx)                  |
+| 16 personalities   | Zdarma, ale nespolehlivý                   |      |                                                                                                                                                                        |
+| High5              | Zdarma, docela kvalitní                    |      |                                                                                                                                                                        |
+| PrinciplesYou      |                                            |      |                                                                                                                                                                        |
+| RedBull Wingfinder |                                            |      |                                                                                                                                                                        |
+| VIA Strengths      | Existuje i v provedení Youth pro studenty  |      |                                                                                                                                                                        |
+| Strengths profile  |                                            |      |                                                                                                                                                                        |
+| Core Values Index  |                                            |      |                                                                                                                                                                        |
+| DISC               |                                            |      |                                                                                                                                                                        |
+| Dynamika bohatství |                                            |      |                                                                                                                                                                        |
+| Love languages     | Netradiční, ale hodí se do vztahů          |      |                                                                                                                                                                        |
+| Pětilístek         |                                            |      |                                                                                                                                                                        |
 
 #### Leadershipové testy
 | Test                           | Poznámka | Cena      |
