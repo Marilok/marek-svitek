@@ -24,6 +24,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           id
           fields {
             slug
+            public
           }
         }
       }
@@ -50,15 +51,17 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       const nextPostId =
         index === posts.length - 1 ? null : posts[index + 1].id;
 
-      createPage({
-        path: post.fields.slug,
-        component: blogPost,
-        context: {
-          id: post.id,
-          previousPostId,
-          nextPostId,
-        },
-      });
+      if (post.fields.public) {
+        createPage({
+          path: post.fields.slug,
+          component: blogPost,
+          context: {
+            id: post.id,
+            previousPostId,
+            nextPostId,
+          },
+        });
+      }
     });
   }
 };
@@ -82,6 +85,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: `image`,
       node,
       value: node.frontmatter.image,
+    });
+
+    createNodeField({
+      name: `public`,
+      node,
+      value: node.frontmatter.public ? node.frontmatter.public : false,
     });
   }
 };
@@ -127,11 +136,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type Fields {
       slug: String
-    }
-    
-    type FieldsExtended {
-      slug: String
-      
+      public: Boolean
     }
   `);
 };

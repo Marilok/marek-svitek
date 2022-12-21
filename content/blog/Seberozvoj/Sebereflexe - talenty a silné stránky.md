@@ -4,6 +4,7 @@ slug: "/zapisky/seberozvoj/silne-stranky"
 category: "seberozvoj"
 image: "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 image_y: 0.5
+public: true
 ---
 
 ## Obecná teorie
