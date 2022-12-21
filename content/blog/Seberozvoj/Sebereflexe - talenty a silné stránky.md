@@ -132,12 +132,12 @@ Existují 3 způsoby:
 	- *What are times in your life when you’ve felt completely aligned with what you’re doing?*
 	- *Jaké (zvíře...) bych chtěl být? Proč?* ⇒ Jaké talenty bych chtěl mít/mám.
 	- *Jaké projekty/myšlenky jsem rozjel? Jaké silné stránky jsem při tom uplatnil?
+- [Talent Canvas](../Assets/Seberozvoj/Talenty/Šablony/Talent_Canvas.pdf)
 
 > [!warning] Chtěné vs skutečné silné stránky
 > Pozor na talenty a silné stránky, které jsou námi chtěné a které jsou skutečné. Tohoto zkreslení se zbavíme doplněním naší reflexe zpětnou vazbou a testy.
 
 ![Příklad chtěné a skutečné silné stránky](../Assets/Seberozvoj/Talenty/Images/Desired_x_actual_strengths.png)
-![Talent Canvas](../Assets/Seberozvoj/Talenty/Šablony/Talent_Canvas.pdf)
 ### 3. Zpětná vazba
 ![](../Assets/Seberozvoj/Talenty/Images/Okruhy_-_zpětná_vazba.png)
 - Zpětná vazba od mého okolí, jak mě vidí
