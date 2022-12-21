@@ -35,19 +35,14 @@ image_y: 0.5
 	2. Spolupráci s ostatními
 	3. Pomocí jiných silných stránek
 ### Komptabilita a symbióza talentů
-
-![Talenty v týmu 1](../Assets/Seberozvoj/Talenty/Images/Talenty_v_týmu_1.png)
-![Talenty v týmu 2](../Assets/Seberozvoj/Talenty/Images/Talenty_v_týmu_2.png)
-*Různé úrovně talentů a jejich chování v týmu.*
-
-![Symbióza talentů](../Assets/Seberozvoj/Talenty/Images/Symbioza.png)
-*Symbiotický vztah, důležitost hledat různorodý tým.*
-
+- Talenty mohou mít různé úrovně, a proto ve skupině danou roli s talentem zpravidla převezme ten s nejsilnější úrovní
+- Důležité je i hledat různorodý tým, aby se naše talenty doplňovaly
+![Ukázka chování u silného a slabého talentu](../Assets/Seberozvoj/Talenty/Images/Talenty_v_týmu_1.png)
+![Ukázka chování dvou slabších talentů](../Assets/Seberozvoj/Talenty/Images/Talenty_v_týmu_2.png)
+![Různorodý tým má víc talentů a tvoří tak symbiotický vztah ve skupině](../Assets/Seberozvoj/Talenty/Images/Symbioza.png)
 ## Killers x winners - framework pro práci s talenty
-
-![Killers x winners](../Assets/Seberozvoj/Talenty/Images/Killers_x_winners.png)
-*Kde zasahují moje talenty, jak moc mi mohou přispět a jak moc škodit.*
-
+![Příklad použití metody killers x winners u talentu Focus](../Assets/Seberozvoj/Talenty/Images/Killers_x_winners.png)
+- Slouží k pochopení, kde zasahují moje talenty, jak moc mi mohou přispět a jak mocmi mohou škodit
 - Postup:
 	1. Uvědomění a popsání
 		- Škála, jak moc mě pozitivně a negativně ovlivňuje daný talent v životě
@@ -55,14 +50,10 @@ image_y: 0.5
 	2. Vyhodnocení
 		- Jak minimalizovat killers a optimalizovat winners?
 		- Je důležitější minimalizovat killers než jak ještě víc maximalizovat winners
-- Udělat pro každou osobní vlastnost
-
-## Jak je zjistit
-
-![pokus](../Assets/Seberozvoj/Talenty/Images/pokus.png)
-![3 kruhy pro zjištění talentů a silných stránek](../Assets/Seberozvoj/Talenty/Images/Okruhy.png)
-
-- Nestačí spoléhat jen na jednu stranu, musíme znát všechny strany a najít si střed 
+- Udělat pro každou osobní vlastnost/talent
+## Jak je zjistit teoreticky
+![3 talentové kruhy pro zjištění talentů a silných stránek](../Assets/Seberozvoj/Talenty/Images/Okruhy.png)
+![Pokus s použitím modré jako pozadí](../Assets/Seberozvoj/Talenty/Images/pokus.png)
 - Existují 3 způsoby:
 	1. Testování
 		- ⊕ Skvělý rozkopávač
@@ -74,20 +65,19 @@ image_y: 0.5
 	3. Zpětná vazba
 		- ⊕ Realita
 		- ⊖ Upřímnost a výstup mimo komfortní zónu
-
+- Nestačí spoléhat jen na jeden okruh (stranu), musíme znát všechny strany a najít si střed. Stejně jako nemůžeme u trojúhelníky vynechat jednu ze stran aby se nerozpadl.
 ## Jak je zjistit prakticky
-- Další doplňující framework
-	- [Reflected Best Self | Avthar](https://avthar.com/blog/strengths)
-	- [Otázky pro RBS | Avthar](https://avthar.com/blog/rbs-starter-kit)
 ### 1. Testování
-
-![Talenty - testy](../Assets/Seberozvoj/Talenty/Images/Okruhy_-_testy.png)
-
-- Pozor na kvalitu testů, vytvořil je profesionální psycholog, nebo někdo nekvalifikovaný? Ty nespolehlivé jsou většinou zdarma.
+![](../Assets/Seberozvoj/Talenty/Images/Okruhy_-_testy.png)
+- Pozor na kvalitu testů, vytvořil je profesionální psycholog nebo někdo nekvalifikovaný
+- Ty zdarma jsou většinou nespolehlivé
 
 > [!warning] 
 > Není to svaté písmo. Když si je zopakujeme, často nám vyjdou různé výsledky
 
+| test   | cena |
+| ------ | ---- |
+| Belbin | Gallup     |
 - Konkrétní testy
 	- Gallup - profesionální, asi nejlepší
 		- [Vysvětlení rolí](../Assets/Seberozvoj/Talenty/Šablony/Gallup_vysvětlení.pdf)
@@ -113,17 +103,11 @@ image_y: 0.5
 	- Dynamika bohatství
 	- Pětilístek
 	- Love languages
-
-![Gallup](../Assets/Seberozvoj/Talenty/Images/Gallup.png)
-*Gallupovy talenty*
-
+![Ukázka rozdělení talentů dle Gallupa](../Assets/Seberozvoj/Talenty/Images/Gallup.png)
 ### 2. Sebeuvědomění
-
-![Talenty - sebereflexe](../Assets/Seberozvoj/Talenty/Images/Okruhy_-_sebereflexe.png)
-
-- *Jaké (zvíře...) bych chtěl být? Proč?* ⇒ Jaké talenty bych chtěl mít/mám.
-- *Jaké projekty, myšlenky jsem rozjel? Jaké silné stránky jsem při tom uplatnil?*
-- Flow:
+![](../Assets/Seberozvoj/Talenty/Images/Okruhy_-_sebereflexe.png)
+- Sebereflexe toho co mi jde
+- Objevení skrze poznání svého flow:
 	- *Při čem zažívám flow?*
 	- *Co mě bavilo jako dítě?* Většinou si necháváme záliby, talenty z dětství.
 	- Při flow se mohou ukazovat talenty
@@ -144,19 +128,17 @@ image_y: 0.5
 	- *What areas/ activities/ categories do you keep coming back to?*
 	- *What do you enjoy listening to podcasts, watching videos and/or reading books about?*
 	- *What are times in your life when you’ve felt completely aligned with what you’re doing?*
-
+	- *Jaké (zvíře...) bych chtěl být? Proč?* ⇒ Jaké talenty bych chtěl mít/mám.
+	- *Jaké projekty/myšlenky jsem rozjel? Jaké silné stránky jsem při tom uplatnil?
 
 > [!warning] Chtěné vs skutečné silné stránky
 > Pozor na talenty a silné stránky, které jsou námi chtěné a které jsou skutečné. Tohoto zkreslení se zbavíme doplněním naší reflexe zpětnou vazbou a testy.
 
-![Desired x actual strengths](../Assets/Seberozvoj/Talenty/Images/Desired_x_actual_strengths.png)
-
+![Příklad chtěné a skutečné silné stránky](../Assets/Seberozvoj/Talenty/Images/Desired_x_actual_strengths.png)
 ![Talent Canvas](../Assets/Seberozvoj/Talenty/Šablony/Talent_Canvas.pdf)
-
 ### 3. Zpětná vazba
-
-![Talenty - zpětná vazba](../Assets/Seberozvoj/Talenty/Images/Okruhy_-_zpětná_vazba.png)
-
+![](../Assets/Seberozvoj/Talenty/Images/Okruhy_-_zpětná_vazba.png)
+- Zpětná vazba od mého okolí, jak mě vidí
 - [Jak dávat a přijímat zpětnou vazbu?](../Zpětná%20vazba%20(RTR).md)
 - Otázky
 	1. *Když bys měl shrnout, v čem je OSOBA dobrý, napadne mě ...*
@@ -178,3 +160,7 @@ image_y: 0.5
 	- *3 silné stránky*
 	- *3 slabé stránky*
 	- *Uveď prosím konkrétní příklad, kdy nějaká daná silná stránka byla použita smysluplně a bylo to v tu chvíli důležité pro tebe, pro tým nebo pro organizaci.*
+### 4. Bonus
+- Další doplňující framework
+	- [Reflected Best Self | Avthar](https://avthar.com/blog/strengths)
+	- [Otázky pro RBS | Avthar](https://avthar.com/blog/rbs-starter-kit)
