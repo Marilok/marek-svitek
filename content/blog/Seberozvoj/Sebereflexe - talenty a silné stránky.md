@@ -136,7 +136,7 @@ Existují 3 způsoby:
 > Pozor na talenty a silné stránky, které jsou námi chtěné a které jsou skutečné. Tohoto zkreslení se zbavíme doplněním naší reflexe zpětnou vazbou a testy.
 
 ![Příklad chtěné a skutečné silné stránky](../Assets/Seberozvoj/Talenty/Images/Desired_x_actual_strengths.png)
-![Talent Canvas](../Assets/Seberozvoj/Talenty/Šablony/Talent_Canvas.pdf)
+[Talent Canvas](../Assets/Seberozvoj/Talenty/Šablony/Talent_Canvas.pdf)
 ### 3. Zpětná vazba
 ![](../Assets/Seberozvoj/Talenty/Images/Okruhy_-_zpětná_vazba.png)
 - Zpětná vazba od mého okolí, jak mě vidí
