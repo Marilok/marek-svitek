@@ -3,6 +3,7 @@ title: "Zpětná vazba"
 slug: "/zapisky/seberozvoj/zpetna-vazba"
 category: "seberozvoj"
 image: "https://images.unsplash.com/photo-1512909006721-3d6018887383?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+public: true
 ---
 ![Dárek](../Assets/Seberozvoj/Zpětná_vazba/Dárek.png)
 
@@ -100,11 +101,7 @@ image: "https://images.unsplash.com/photo-1512909006721-3d6018887383?ixlib=rb-1.
 ## Jak by měla prakticky vypadat
 ### Sandwich Technique
 - Celý proces je příjemnější
-
-![Sandwich Technique](../Assets/Seberozvoj/Zpětná_vazba/Sandwich_Technique.png)
-  
-![Sandwich Technique 2](../Assets/Seberozvoj/Zpětná_vazba/Sandwich_Technique_2.png)
-
+![Sendvič](../Assets/Seberozvoj/Zpětná_vazba/Sendvič.png)
 ### Načasování
 - Ihned - u zpětné vazby na znalosti, prezentace...
 - Pozdějí - u zpětné vazby na emočně vypjatých situacích
