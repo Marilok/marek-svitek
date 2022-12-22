@@ -69,6 +69,13 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-admonitions`,
+            options: {
+              tag: "```",
+              icons: "svg",
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 630,

@@ -8,9 +8,11 @@ image: "https://images.unsplash.com/photo-1448745799564-e2c1ed534c94?ixlib=rb-1.
 > [!NOTE] Dobrý nápad je jen začátek
 > Nápad 10 %, exekuce 90 % úspěchu.
 
+```ad-note
+You need to know, what problem you're solving.
 
-> [!note] 
-> You need to know, what problem you're solving.
+```
+
 
 ## 1. Intersekce
 Způsoby
@@ -20,32 +22,45 @@ Způsoby
 4. Ikigai (smysl života)
 5. Co (znalosti) + jak (talenty) + hodnoty (proč)
 
+1. Zájmy
+	1. O kterých tématech pořád mluvím? (Možné získat od přátelů)
+	2. Co bych chtěl dělat, kdyby peníze nebyly problém?
+	3. U jakých témat se zasekávám obdivem na sockách
+	- Zkombinovat 1+2 a získáme vášeň
+2. Dovednosti
+	1. Přátelé říkají, že jsem v tomto dobrý:
+	2. Chci se zlepšit v:
+	3. Jsem nadprůměrně dobrý v:
+3. Dopad
+	1. Skupiny, kterým chci pomáhat:
+	2. Lokální problémy, které chci řešit:
+	3. Globální problémy:
+4. Smysl
+	- Můj smysl je ... (intersekce daných oblastí)
+
 > [!danger] Pozor!
 > 1. Produkt, který technicky nemohu zrealizovat
 > 2. Neznámé prostředí
 
 ![Ikigai, Hedgehog](../Assets/Podnikání/napad/Images/Ikigai_Hedgehog.png)
-
 ## 2. Řešení problému
-Co trápí lidi? A mě?
-
-Způsoby
-- Co trápí obecně lidi v okolí? Co společnost? A co mě?
-- Probing for pain
-	- Vyzpovídat zástupce skupiny (nebo sebe)
-		- Co ho trápí?
-		- Co mu dělá problémy (jaká práce)?
-		- Kde stávající řešení nestačí?
-		- Za co by byli ochotni zaplatit?
-- [Metody designu](Metody%20designu.md##Definice problému)
-- [Metody designu](Metody%20designu.md##Výzkumné)
+- Co trápí lidi? A mě?
+- Způsoby
+	- *Co trápí obecně lidi v okolí? Co společnost? A co mě?*
+	- Probing for pain
+		- Vyzpovídat zástupce skupiny (nebo sebe)
+			- Co ho trápí?
+			- Co mu dělá problémy (jaká práce)?
+			- Kde stávající řešení nestačí?
+			- Za co by byli ochotni zaplatit?
+	- [Metody designu](Metody%20designu.md##Definice problému)
+	- [Metody designu](Metody%20designu.md##Výzkumné)
   
   > [!danger] Pozor!
   > 1. Moc malé (niché) trhy
   > 2. Všechno nemá cenu řešit (a ani nedokážu)
-
 ## 3. Rip, pivot, jam
-Co funguje v zahraničí/v jiných odvětích a u nás ne?
+Co funguje v zahraničí/v jiných odvětvích a u nás ne?
 
 Kroky
 1. Rip (utrhnout) úspěšný model
@@ -80,7 +95,6 @@ Nebo...
 - Co by se dalo zefektivnit?
 - Co jde předělat na open-source a být transparentní s osobními daty?
 - Výhoda budování komunity a effektu Wikipedie (lidé tam píšou, protože to dobrovolné, nikdo je k tomu nenutí a je to benefiční pro společnost)
-
 ## 6. Trendy/aktuální výzvy
 - Jaké nové potřeby vznikají ve společnosti?
 - Co ve společnosti rezonuje? Co je trendy?
@@ -147,10 +161,8 @@ Nebo...
 > [!danger] Pozor!
 > Projekt by nám měl sedět s osobními hodnotami a vizí
   [Hodnoty, emoce, potřeby, vize](Hodnoty,_emoce,_potřeby,_vize.md)
-
 ## 11. Franšíza
-- Solidní byznys, ale většinou potřeba větší kapitál
-
+- Můžeme získat stabilní příjem s menším úsilím, ale většinou potřebujeme mít větší kapitál
 ## Zdroje
 - [Jak najít dokonalý podnikatelský nápad? | JIC](https://www.jic.cz/magazin/jicblog-jak-najit-dokonaly-podnikatelsky-napad/)
 - [LEKCE 1: Od nápadu k podnikání | JICskill](https://skill.jic.cz/lekce/lekce-1/)
@@ -159,6 +171,3 @@ Nebo...
 - [Hledej implulzy (nejen) ve startupové scéně](https://startupbox.app/howto/hledej-impulzy-nejen-ve-startupove-scene)
 - [How to Get Startup Ideas - Y Combinator](https://youtu.be/uvw-u99yj8w)
 - [How to Get Startup Ideas](http://www.paulgraham.com/startupideas.html)
-
-## Next step
-[2 Konkurence](2_Konkurence.md)
