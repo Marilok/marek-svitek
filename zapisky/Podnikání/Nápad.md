@@ -8,10 +8,9 @@ image: "https://images.unsplash.com/photo-1448745799564-e2c1ed534c94?ixlib=rb-1.
 > [!NOTE] Dobrý nápad je jen začátek
 > Nápad 10 %, exekuce 90 % úspěchu.
 
-```note
-You need to know, what problem you're solving.
+> [!NOTE] Dobrý nápad je jen začátek
+> Musíš vědět jaký problém řešíš.
 
-```
 
 
 ## 1. Intersekce
