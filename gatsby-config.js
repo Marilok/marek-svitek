@@ -73,6 +73,7 @@ module.exports = {
             options: {
               maxWidth: 630,
               showCaptions: true,
+              wrapperStyle: `border-radius: var(--chakra-radii-md)`,
             },
           },
           {

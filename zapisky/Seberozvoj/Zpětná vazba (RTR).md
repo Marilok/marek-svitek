@@ -4,6 +4,7 @@ slug: "/zapisky/seberozvoj/zpetna-vazba"
 category: "seberozvoj"
 image: "https://images.unsplash.com/photo-1512909006721-3d6018887383?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 ---
+![Dárek](../Assets/Seberozvoj/Zpětná_vazba/Dárek.png)
 
 > [!tldr]
 > Zpětná vazba je jako dárek, měl by být příjemný, užitečný a rozvojový.
