@@ -18,7 +18,7 @@ const page = () => {
     {
       title: "Soutěž & Podnikej",
       description:
-        "V soutěži jsem se účastnil s projektem Barka, který měnil ošklivé a nudné karty v jedinečné, cool a originální. Získali 3. místo v Jihomoravském kraji.",
+        "V soutěži jsem se účastnil s projektem Barka, který měnil ošklivé a nudné karty v jedinečné, cool a originální. Získali jsme 3. místo v Jihomoravském kraji.",
       link: "https://soutezapodnikej.cz/blog/chteli-bychom-skoncovat-s-osklivymi-a-nudnymi-platebnimi-kartami-rikaji-marek-svitek-a-zuzana-jurtikova/",
       imgSrc: sapBlog,
       tags: [
@@ -90,7 +90,7 @@ const page = () => {
     {
       title: "#startupcamp",
       description:
-        "Další skvělá akce, kde jsem se více naučil, že je ze začátku nutné otestovat MVP a pak se až do toho pustit.",
+        "Další skvělá akce, kde jsem se opět zjistil, že je ze začátku nutné otestovat MVP a pak se až do toho pustit.",
       imgSrc: jicCamp,
       tags: [{ name: "podnikání", color: "blue" }],
       date: "08/2022",
@@ -116,7 +116,7 @@ const page = () => {
       link: "https://www.elementsofai.cz/",
       date: "DOING",
       description:
-        "Online kurz o umělé inteligenci (AI), který jsem ještě nedokončil. 🙈",
+        "Světově známý online kurz o teoretických základech umělé inteligence (AI).",
       imgSrc: "https://elementsofai.s3.amazonaws.com/facebook.png",
       tags: [
         { name: "MOOC", color: "red" },
@@ -127,7 +127,7 @@ const page = () => {
       title: "Leancanvas.cz",
       link: "https://www.leancanvas.cz/",
       description:
-        "V tomto kurzu jsem se naučil podrobně pracovat s LeanCannvasem, místo toho abych do nějákého projektu neskočil jen tak po hlavě.",
+        "V tomto kurzu jsem se naučil podrobně pracovat s LeanCannvasem. Od teď už nebudu do projektů skákat po jen tak po hlavě.",
       imgSrc:
         "https://images.unsplash.com/photo-1629019621374-94c3bae51815?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1183&q=80",
       tags: [
@@ -139,7 +139,7 @@ const page = () => {
     {
       title: "Barka - Barevná karta",
       description:
-        "Super cool projekt pro studenty, jak se zbavit nudné a ošklivé karty.",
+        "Super cool projekt pro studenty, kteří se chtějí zbavit své nudné a ošklivé karty.",
       imgSrc: barkaUno,
       link: "https://barevnakarta.cz/",
       tags: [{ name: "podnikání", color: "blue" }],
