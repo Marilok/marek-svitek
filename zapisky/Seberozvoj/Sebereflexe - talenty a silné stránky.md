@@ -4,7 +4,6 @@ slug: "/zapisky/seberozvoj/silne-stranky"
 category: "seberozvoj"
 image: "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 image_y: 0.5
-public: true
 ---
 
 ## Obecná teorie
@@ -23,8 +22,8 @@ public: true
 	- Nemusíme se bát o budoucnost naší práce
 		- Když přeskládám použití talentů, dostanu novou práci, která mi půjde a budu v ní výjimečný
 ### Talent x silná stránka
-- **Talent** - způsob myšlení, chování, cítění pro nás přirozený
-- **Silná stránka** - schopnost vytvářet pozitivní výsledek v konkrétních úkolech
+- **Talent** - způsob přemýšlení, chování nebo cítění, který je pro nás přirozený
+- **Silná stránka** - schopnost konstantně vytvářet pozitivní výsledek skrze (téměř) dokonalý výkon v konkrétních úkolech
 
 > [!note] 
 > Talent × úsilí = silná stránka
@@ -115,6 +114,7 @@ Existují 3 způsoby:
 	- *Co mě bavilo jako dítě?* Většinou si necháváme záliby, talenty z dětství.
 	- Při flow se mohou ukazovat talenty
 	- Flow x motivace z výsledku, nejlepší sportovci jsou ve flow
+	- Popiš situaci, kdy tě nějaká činnost naprosto pohltila, bavila tě a úplně jsi při ní ztratil/a pojem o čase. Potom odpověz na otázku - *"Jaké si v ní používal talenty a silné stránky?"*
 - Otázky
 	- *When did you feel flow?*
 	- *What are you curious about?*
