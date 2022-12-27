@@ -67,6 +67,20 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 };
 
 /**
+ * @type {import('gatsby').GatsbyNode['createPages']}
+ */
+exports.createPages = async ({ actions }) => {
+  const { createRedirect } = actions;
+
+  createRedirect({
+    fromPath: "/sb",
+    toPath: "https://publish.obsidian.md/serve?url=www.mareksvitek.cz/sb",
+    isPermanent: true,
+    force: true,
+  });
+};
+
+/**
  * @type {import('gatsby').GatsbyNode['onCreateNode']}
  */
 exports.onCreateNode = ({ node, actions, getNode }) => {
