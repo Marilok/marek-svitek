@@ -73,10 +73,11 @@ exports.createPages = async ({ actions }) => {
   const { createRedirect } = actions;
 
   createRedirect({
-    fromPath: "/sb",
-    toPath: "https://publish.obsidian.md/serve?url=www.mareksvitek.cz/sb",
-    isPermanent: true,
-    force: true,
+    fromPath: "/sb/*",
+    toPath: "https://publish.obsidian.md/serve?url=www.mareksvitek.cz/sb/*",
+    // isPermanent: true,
+    // force: true,
+    statusCode: 200,
   });
 };
 
