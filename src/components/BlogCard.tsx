@@ -25,7 +25,7 @@ export default function BlogCard({
           maxW={"445px"}
           w={{ md: "md", sm: "sm", lg: "lg" }}
           bg={useColorModeValue("white", "gray.900")}
-          boxShadow={"2xl"}
+          boxShadow={"xl"}
           rounded={"md"}
           p={6}
           overflow={"hidden"}
