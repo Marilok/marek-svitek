@@ -12,6 +12,6 @@ const page = () => {
   );
 };
 
-export const Head = () => <Seo title="Marek Svitek - Svíťa" />;
+export const Head = () => <Seo title="Svíťa" />;
 
 export default page;
