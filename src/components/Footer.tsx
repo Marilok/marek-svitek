@@ -67,7 +67,7 @@ export default function SmallWithLogoLeft() {
           align={{ base: "center", md: "center" }}
         >
           <Logo variant="oneLine" />
-          <Text>Vytvořeno s 🍺 v Brně, 🇨🇿</Text>
+          <Text>Vytvořeno v Brně, 🇨🇿</Text>
           <Stack direction={"row"} spacing={6}>
             <SocialButton
               label={"LinkedIn"}
