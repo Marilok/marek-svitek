@@ -22,8 +22,6 @@ const NotFoundPage = ({ data }) => {
 };
 
 // export const Head = () => <Seo title="404: Not Found" />;
-export const Head = () => (
-  <Seo title="Opuštěná stránka | Marek Svitek - Svíťa" />
-);
+export const Head = () => <Seo title="Opuštěná stránka" />;
 
 export default NotFoundPage;

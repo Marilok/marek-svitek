@@ -106,7 +106,7 @@ const BlogIndex = ({ data, location }) => {
 
 export default BlogIndex;
 
-export const Head = () => <Seo title="Zápisky | Marek Svitek - Svíťa" />;
+export const Head = () => <Seo title="Zápisky" />;
 
 export const pageQuery = graphql`
   {
