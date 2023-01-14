@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-git-clone",
       options: {
-        repository: `https://Marilok:${process.env.GITHUB_TOKEN}@github.com/zapisky/zapisky.git`,
+        repository: `https://Marilok:${process.env.GITHUB_TOKEN}@github.com/Marilok/zapisky`,
         path: `${__dirname}/zapisky/`,
       },
     },
