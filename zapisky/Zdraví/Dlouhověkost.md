@@ -1,3 +1,0 @@
-Modré zóny
-
-![](../Dlouhověkost.jpg)
