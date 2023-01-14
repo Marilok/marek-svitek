@@ -1,2 +1,0 @@
-- [The Catalog of Design Patterns](https://refactoring.guru/design-patterns/catalog)
-- [Patterns.dev - Modern Web App Design Patterns](https://www.patterns.dev/)

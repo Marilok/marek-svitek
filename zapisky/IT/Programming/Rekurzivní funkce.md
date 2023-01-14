@@ -1,2 +1,0 @@
-- Self-calling
-- Aby nešli do nekonečna, tak se na začátku definuje podmínka, pomocí které se funkce ukončí
