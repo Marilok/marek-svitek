@@ -23,13 +23,13 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/zapisky/Assets`,
-        // name: `assets`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/zapisky/Assets`,
+    //     // name: `assets`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
