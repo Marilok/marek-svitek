@@ -24,19 +24,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     {
-      resolve: "gatsby-plugin-git-clone",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        repository: `https://Marilok:${process.env.GITHUB_TOKEN}@ssh.github.com/Marilok/zapisky`,
-        path: `${__dirname}/zapisky/`,
+        path: `${__dirname}/zapisky/Assets`,
+        // name: `assets`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/zapisky/Assets`,
-    //     // name: `assets`,
-    //   },
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
