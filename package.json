@@ -54,7 +54,7 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "preinstall": "eval $(grep '^SUBMODULE_COMMAND' .env)",
+    "preinstall": "git rm -r --cached zapisky && $(grep '^SUBMODULE_COMMAND' .env)",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
