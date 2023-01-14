@@ -54,7 +54,7 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "preinstall": "git rm -r --cached zapisky && git clone $(grep SUBMODULE_COMMAND .env)",
+    "postinstall": "git rm -r --cached zapisky && git clone $(grep SUBMODULE_COMMAND .env)",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
