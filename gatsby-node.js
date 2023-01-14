@@ -14,7 +14,16 @@ const blogPost = path.resolve(`./src/templates/blog-post.js`);
  * @type {import('gatsby').GatsbyNode['createPages']}
  */
 exports.createPages = async ({ graphql, actions, reporter }) => {
-  const { createPage, createRedirect} = actions;
+  const { createPage, createRedirect } = actions;
+
+  createRedirect({
+    fromPath: "/digitalnizahrada/*",
+    toPath:
+      "https://publish.obsidian.md/serve?url=www.mareksvitek.cz/digitalnizahrada/*",
+    isPermanent: true,
+    force: true,
+    statusCode: 200,
+  });
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(`
@@ -64,16 +73,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     });
   }
-  createRedirect({
-    fromPath: "/digitalnizahrada/*",
-    toPath:
-      "https://publish.obsidian.md/serve?url=www.mareksvitek.cz/digitalnizahrada/*",
-    // isPermanent: true,
-    // force: true,
-    statusCode: 200,
-  });
 };
-
 
 /**
  * @type {import('gatsby').GatsbyNode['onCreateNode']}
