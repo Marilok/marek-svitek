@@ -1,0 +1,9 @@
+2 účetní operace
+
+Zboží 100 prodám za 125
+- Zboží (A) -100
+- Vyskladnění (P, Nákladový ú.) -100 (MD), +100D
+- Tržby (P, Výnosový ú) -100 (MD), +125 (D)
+- VH -100 (MD), +125 (D)
+
+*Časem výrobky prodáte. Až je prodáte, tak budete účtovat výnos (tržbu) z prodeje výrobků. S prodejem výrobků souvisí jejich vyskladnění, tak se v souvislosti s tím účtujeme 583 na MD, jako kdybychom „obrečeli“, že jsme měli výrobky v této kalkulované ceně a nyní jsme o ně vlivem prodeje přišli. Vyskladnění čehokoli obvykle bývá náklad (obrečíte, že jste to měli a už to nemáte). Naopak to, co jste získali, tak máte jako tržbu ve výnosech na účtu 601 v prodejní ceně. Zde účetnictví volí trochu netradiční postup, takže je třeba si pamatovat, že u výrobků je výjimka z pravidla a účtování výrobků na sklad a jejich vyskladění probíhá přes účet 583 (buď na MD u vyskladnění, či na D u naskladnění). Když jste výrobek vyrobili, byl to úbytek nákladů na 583 na D, když výrobek prodáte, účtuje se náklad na 583 na MD. S tím si ale zatím hlavu nelamte. O tom se dozvíte více později, nebo si to jen prostě zapamatujete jako výjimku… Prostě výrobky účtujeme přes příslušnou změnu stavu. Má to svou logiku, ale pro začínající studenty je těžko pochopitelná. Účetnictví se zde chová jako kdyby přehazovalo brambory, když výrobek vzniká, tak to dá všechny různé vstupy na výrobek do nákladů, jakmile už něco (výrobek) má, tak ty náklady takto nepřímo zruší a řekne, že má výrobek. Pak když o výrobek přijde v důsledku prodeje, tak ho znova dá do nákladů a jako protiváhu zaúčtuje vzniklou tržbu do výnosů. Prostě to tak postupně probublává účetnictvím v různých cenách a okamžicích. Více k výrobkům najdete v mém článku: [Zásoby vlastní výroby](http://www.ucetnicek.cz/article/show/364).*
