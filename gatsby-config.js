@@ -1,4 +1,5 @@
 const path = require("node:path");
+const { resolve } = require("node:path");
 
 /**
  * Configure your Gatsby site with this file.
@@ -43,6 +44,13 @@ module.exports = {
     //     // name: `assets`,
     //   },
     // },
+    {
+      resolve: "gatsby-plugin-git-clone",
+      options: {
+        repository: `https://Marilok:${process.env.GITHUB_TOKEN}@github.com/zapisky/zapisky.git`,
+        path: resolve(__dirname, "./zapisky"),
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
