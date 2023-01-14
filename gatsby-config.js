@@ -23,46 +23,24 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/content/blog/Podnikání`,
-    //     // name: `blog`,
-    //   },
-    // },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/content/blog/Seberozvoj`,
-    //     // name: `blog`,
-    //   },
-    // },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/content/blog/Assets`,
-    //     // name: `assets`,
-    //   },
-    // },
     {
       resolve: "gatsby-plugin-git-clone",
       options: {
         repository: `https://Marilok:${process.env.GITHUB_TOKEN}@github.com/zapisky/zapisky.git`,
-        path: resolve(__dirname, "./zapisky"),
+        path: `${__dirname}/zapisky/`,
       },
     },
-    // {
-    // resolve: `gatsby-source-filesystem`,
-    // options: {
-    // path: `${__dirname}/zapisky/Assets`,
-    // // name: `assets`,
-    // },
-    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/zapisky/Assets`,
+        // name: `assets`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/zapisky`,
-        // name: `assets`,
       },
     },
     {
@@ -165,13 +143,6 @@ module.exports = {
         path: `${__dirname}/src/images/projects/`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `zapisky`,
-    //     path: `${__dirname}/src/zapisky`,
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
