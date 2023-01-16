@@ -52,9 +52,9 @@ export default function CallToAction() {
             řekl, že jsem podnikavý středoškolák z Brna. 🙋 Kromě toho že rád
             tvořím a podnikám, tak jsem v minulosti vyvíjel pár zajímavých
             webových aplikací. 🤖 Tento web slouží primárně jako portfolio
-            aktivit, kterých jsem se zúčastnil. Také zde najdeš zápisky mých
-            znalostí (aka Second&nbsp;Brain nebo Digital Garden), které jsem
-            pochytil na několika různých akcích.
+            aktivit, kterých jsem se zúčastnil. Ale také zde najdeš zápisky mých
+            znalostí (neboli moji digitální zahradu 🌱), které jsem
+            pochytil na několika různých akcích. ✍️
           </Text>
           <Stack
             spacing={{ base: 4, sm: 6 }}
