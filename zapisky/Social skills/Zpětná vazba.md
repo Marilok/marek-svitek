@@ -5,7 +5,7 @@ category: "social skills"
 image: "https://images.unsplash.com/photo-1512909006721-3d6018887383?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 public: true
 ---
-![Dárek](../@Assets/Seberozvoj/Zpětná_vazba/Dárek.png)
+![Dárek](../Assets/Seberozvoj/Zpětná_vazba/Dárek.png)
 
 > [!tldr]
 > Zpětná vazba je jako dárek, měl by být příjemný, užitečný a rozvojový.
@@ -34,7 +34,7 @@ public: true
 - Johariho okno
 	- Máme 4 kvadranty, zpětnou vazbou přesouváme věci ze slepé oblasti do otevřené oblasti
 	- Mělo by to být i cílem, pokud už osoba zná danou věc, je to spíše zbytečný
-![Johari okno](../@Assets/Seberozvoj/Zpětná_vazba/Johari_okno.png)
+![Johari okno](../Assets/Seberozvoj/Zpětná_vazba/Johari_okno.png)
 ---
 ## 2. Pro změnu chování 🔀
 - 3 způsoby
@@ -48,9 +48,9 @@ public: true
 	- *Pokud například odborník diagnostikuje dítěti poruchu pozornosti, budete to pravděpodobně vnímat trochu jinak, než když se s vámi o tuto diagnózu podělí váš kamarád-laik jakožto o svou domněnku.*
 - Využívá sebenaplňující předpovědi, Pygmalion efektu (=očekávání budoucích událostí vede k chování, které zapříčiní, že se daná skutečnost opravdu stane)
   
-  ![Labeling](../@Assets/Seberozvoj/Zpětná_vazba/Zpětná_vazba_(feedback).png)
+  ![Labeling](../Assets/Seberozvoj/Zpětná_vazba/Zpětná_vazba_(feedback).png)
   
-![Labeling](../@Assets/Seberozvoj/Zpětná_vazba/Labeling.png)
+![Labeling](../Assets/Seberozvoj/Zpětná_vazba/Labeling.png)
 
 ### B. Shaping (positive reinforcement)
 - Zaměříme na situace, kdy se dané osobě daří přibližovat ke kýženému chování
@@ -91,7 +91,7 @@ public: true
 	- _„Trápí mě, že děláš… že neděláš… že práce vypadá takto, a ne takto…“_
 	  
 
-![Konkrétní příklad PEPE](../@Assets/Seberozvoj/Zpětná_vazba/PEPE.png)
+![Konkrétní příklad PEPE](../Assets/Seberozvoj/Zpětná_vazba/PEPE.png)
 *Příklad hlasité hudby od sousedů*
 
 ---
@@ -99,7 +99,7 @@ public: true
 ## Jak by měla prakticky vypadat
 ### Sandwich Technique
 - Celý proces je příjemnější
-![Sendvič](../@Assets/Seberozvoj/Zpětná_vazba/Sendvič.png)
+![Sendvič](../Assets/Seberozvoj/Zpětná_vazba/Sendvič.png)
 ### Načasování
 - Ihned - u zpětné vazby na znalosti, prezentace...
 - Pozdějí - u zpětné vazby na emočně vypjatých situacích
@@ -161,7 +161,7 @@ public: true
 	- Záleží nám co si můžeme odnést a naučit se, jak se to stalo pro poučení
 	- Posouvá nás dál
 
-![Tabulka srovnání](../@Assets/Seberozvoj/Zpětná_vazba/Kritika.png)
+![Tabulka srovnání](../Assets/Seberozvoj/Zpětná_vazba/Kritika.png)
 
 ---
 
