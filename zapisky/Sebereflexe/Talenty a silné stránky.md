@@ -37,11 +37,11 @@ public: true
 ### Komptabilita a symbióza talentů
 - Talenty mohou mít různé úrovně, a proto ve skupině danou roli s talentem zpravidla převezme ten s nejsilnější úrovní
 - Důležité je i hledat různorodý tým, aby se naše talenty doplňovaly
-![Ukázka chování u silného a slabého talentu](../@Assets/Sebereflexe/Talenty/Images/Talenty_v_týmu_1.png)
-![Ukázka chování dvou slabších talentů](../@Assets/Sebereflexe/Talenty/Images/Talenty_v_týmu_2.png)
-![Různorodý tým má víc talentů a tvoří tak symbiotický vztah ve skupině](../@Assets/Sebereflexe/Talenty/Images/Symbioza.png)
+![Ukázka chování u silného a slabého talentu](../Assets/Sebereflexe/Talenty/Images/Talenty_v_týmu_1.png)
+![Ukázka chování dvou slabších talentů](../Assets/Sebereflexe/Talenty/Images/Talenty_v_týmu_2.png)
+![Různorodý tým má víc talentů a tvoří tak symbiotický vztah ve skupině](../Assets/Sebereflexe/Talenty/Images/Symbioza.png)
 ## Killers x winners - framework pro práci s talenty
-![Příklad použití metody killers x winners u talentu Focus](../@Assets/Sebereflexe/Talenty/Images/Killers_x_winners.png)
+![Příklad použití metody killers x winners u talentu Focus](../Assets/Sebereflexe/Talenty/Images/Killers_x_winners.png)
 - Slouží k pochopení, kde zasahují moje talenty, jak moc mi mohou přispět a jak mocmi mohou škodit
 - Postup:
 	1. Uvědomění a popsání
@@ -52,8 +52,8 @@ public: true
 		- Je důležitější minimalizovat killers než jak ještě víc maximalizovat winners
 - Udělat pro každou osobní vlastnost/talent
 ## Jak je zjistit teoreticky
-![3 talentové kruhy pro zjištění talentů a silných stránek](../@Assets/Sebereflexe/Talenty/Images/Okruhy.png)
-![Pokus s použitím modré jako pozadí](../@Assets/Sebereflexe/Talenty/Images/pokus.png)
+![3 talentové kruhy pro zjištění talentů a silných stránek](../Assets/Sebereflexe/Talenty/Images/Okruhy.png)
+![Pokus s použitím modré jako pozadí](../Assets/Sebereflexe/Talenty/Images/pokus.png)
 Existují 3 způsoby:
 1. Testování
 	- ⊕ Skvělý rozkopávač
@@ -71,7 +71,7 @@ Existují 3 způsoby:
 
 ## Jak je zjistit prakticky
 ### 1. Testování
-![](../@Assets/Sebereflexe/Talenty/Images/Okruhy_-_testy.png)
+![](../Assets/Sebereflexe/Talenty/Images/Okruhy_-_testy.png)
 - Pozor na kvalitu testů, vytvořil je profesionální psycholog nebo někdo nekvalifikovaný
 - Ty zdarma jsou většinou nespolehlivé
 
@@ -81,9 +81,9 @@ Existují 3 způsoby:
 #### Všeobecné testy
 | Test               | Poznámka                                   | Cena | Materiály                                                                                                                                                              |
 | ------------------ | ------------------------------------------ | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Gallup             | Profesionální, asi nejlepší                |      | [Vysvětlení rolí Gallupa](../@Assets/Sebereflexe/Talenty/Šablony/Gallup_vysvětlení.pdf)                                                                                  |
-| Belbin             | Ideální pro zjištění rozdělení rolí v týmu |      | [Zkrácený test Belbina](../@Assets/Sebereflexe/Talenty/Šablony/Belbin_test.xlsx) a [vysvětlení rolí Belbina](../@Assets/Sebereflexe/Talenty/Šablony/Belbin_vysvětlení.pdf) |
-| Big 5              |                                            |      | [Zkrácený test Big 5](../@Assets/Sebereflexe/Talenty/Šablony/Big_5_test.pdf) a [answersheet](../Assets/Seberozvoj/Talenty/Šablony/Big_Answersheet.xlsx)                  |
+| Gallup             | Profesionální, asi nejlepší                |      | [Vysvětlení rolí Gallupa](../Assets/Sebereflexe/Talenty/Šablony/Gallup_vysvětlení.pdf)                                                                                  |
+| Belbin             | Ideální pro zjištění rozdělení rolí v týmu |      | [Zkrácený test Belbina](../Assets/Sebereflexe/Talenty/Šablony/Belbin_test.xlsx) a [vysvětlení rolí Belbina](../Assets/Sebereflexe/Talenty/Šablony/Belbin_vysvětlení.pdf) |
+| Big 5              |                                            |      | [Zkrácený test Big 5](../Assets/Sebereflexe/Talenty/Šablony/Big_5_test.pdf) a [answersheet](../Assets/Seberozvoj/Talenty/Šablony/Big_Answersheet.xlsx)                  |
 | 16 personalities   | Zdarma, ale nespolehlivý                   |      |                                                                                                                                                                        |
 | High5              | Zdarma, docela kvalitní                    |      |                                                                                                                                                                        |
 | PrinciplesYou      |                                            |      |                                                                                                                                                                        |
@@ -104,7 +104,7 @@ Existují 3 způsoby:
 | Leadership judgement indicator |          |           |
 | Leadershipové karty            |          | 18 000 Kč |
 
-![Ukázka rozdělení talentů dle Gallupa](../@Assets/Sebereflexe/Talenty/Images/Gallup.png)
+![Ukázka rozdělení talentů dle Gallupa](../Assets/Sebereflexe/Talenty/Images/Gallup.png)
 
 #### Emoční inteligence
 - [Více o emoční inteligenci](../Social%20skills/Emoční%20inteligence.md)
@@ -116,7 +116,7 @@ Existují 3 způsoby:
 | Dotazník sociálních dovedností      |          |      | 
 
 ### 2. Sebeuvědomění
-![](../@Assets/Sebereflexe/Talenty/Images/Okruhy_-_sebereflexe.png)
+![](../Assets/Sebereflexe/Talenty/Images/Okruhy_-_sebereflexe.png)
 - Sebereflexe toho co mi jde
 - Objevení skrze poznání svého flow:
 	- *Při čem zažívám flow?*
@@ -142,14 +142,14 @@ Existují 3 způsoby:
 	- *What are times in your life when you’ve felt completely aligned with what you’re doing?*
 	- *Jaké (zvíře...) bych chtěl být? Proč?* ⇒ Jaké talenty bych chtěl mít/mám.
 	- *Jaké projekty/myšlenky jsem rozjel? Jaké silné stránky jsem při tom uplatnil?
-- [Talent Canvas](../@Assets/Sebereflexe/Talenty/Šablony/Talent_Canvas.pdf)
+- [Talent Canvas](../Assets/Sebereflexe/Talenty/Šablony/Talent_Canvas.pdf)
 
 > [!warning] Chtěné vs skutečné silné stránky
 > Pozor na talenty a silné stránky, které jsou námi chtěné a které jsou skutečné. Tohoto zkreslení se zbavíme doplněním naší reflexe zpětnou vazbou a testy.
 
-![Příklad chtěné a skutečné silné stránky](../@Assets/Sebereflexe/Talenty/Images/Desired_x_actual_strengths.png)
+![Příklad chtěné a skutečné silné stránky](../Assets/Sebereflexe/Talenty/Images/Desired_x_actual_strengths.png)
 ### 3. Zpětná vazba
-![](../@Assets/Sebereflexe/Talenty/Images/Okruhy_-_zpětná_vazba.png)
+![](../Assets/Sebereflexe/Talenty/Images/Okruhy_-_zpětná_vazba.png)
 - Zpětná vazba od mého okolí, jak mě vidí
 - [Jak dávat a přijímat zpětnou vazbu?](../Social%20skills/Zpětná%20vazba.md)
 - Otázky
