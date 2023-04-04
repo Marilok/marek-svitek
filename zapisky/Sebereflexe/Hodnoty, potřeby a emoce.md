@@ -18,8 +18,8 @@ public: true
 	- [Nenásilná komunikace](https://nenasilnakomunikace.org/stahnete-si-cviceni-s-kartickami-potreb-a-pocitu/)
 	- [Komunikace Srdcem](https://www.komunikacesrdcem.cz/jak-pracovat-s-kartickami-pocitu-a-potreb/)
 ## Práce s hodnotami
-![V životě řídíme auto, o které je potřeba se starat a naplňovat jeho potřeby](../@Assets/Sebereflexe/Hodnoty/Potreby.png)
-![V průběhu života se nám znalost svých hodnot může měnit](../@Assets/Sebereflexe/Hodnoty/Sinusoida.png)
+![V životě řídíme auto, o které je potřeba se starat a naplňovat jeho potřeby](../Assets/Sebereflexe/Hodnoty/Potreby.png)
+![V průběhu života se nám znalost svých hodnot může měnit](../Assets/Sebereflexe/Hodnoty/Sinusoida.png)
 - Každá hodnota/potřeba lze naplnit různými způsoby, proto je dobré mít **předchystané způsoby, jak své hodnoty naplnit**
 - Praktické otázky:
 	- *Co můžu udělat pro to, abych je naplnil?* (Třeba si mohu vyhradit ohraničený čas, který mi mi udělá dobře a naplní potřeby/hodnoty)
@@ -32,12 +32,12 @@ public: true
 4. Pojmenuj 3 aspekty/kvality tvého života, bez kterých si ho nedokážete představit. Proč?
 5. *Co mě žene do projektu? Jaká je má motivace? Proč?* ([S. Sinek Why?](S.%20Sinek%20Why?))
 ## Popisování hodnot
-![](../@Assets/Sebereflexe/Hodnoty/Klasifikace.jpg)
+![](../Assets/Sebereflexe/Hodnoty/Klasifikace.jpg)
 - Hodnoty lze uchopit různě, ale jak s danou hodnotou pracuji? Jak to dělám já?
 - Například mám hodnotu *rodina*, mohu ji uchopit různými způsoby:
 	1. Zakládám si na hlubokých vztazích v rodině (a proto se třeba věnuji každému členovi jednou týdně)
 	2. Rodina na 1. místě (a proto třeba se točí můj svět okolo rodiny)
 ## Okruhy hodnot
-![Pyramida hodnot](../@Assets/Sebereflexe/Hodnoty/Okruhy.png)
+![Pyramida hodnot](../Assets/Sebereflexe/Hodnoty/Okruhy.png)
 ## Bonus - Inspirující osoby
 - Osoby, které obdivuji, mi mohou sloužit k inspiraci. Proto když mám problém a nevím jak ho řešit, je možné, že v minulosti řešili naprosto stejný. Možným řešením na problém může být popovídat si s nimi nebo si přečíst jejich biografii.
