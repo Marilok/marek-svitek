@@ -24,6 +24,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     force: true,
     statusCode: 200,
   });
+  
+  createRedirect({
+    fromPath: "/je-bitcoin-lepsi-nez-fiat/*",
+    toPath:
+      "https://1drv.ms/w/s!AkWvTBtMCZ5DzfkY8hwRyJ6RziRt0Q?e=eUI2gZ",
+    isPermanent: true,
+    force: true,
+    statusCode: 200,
+  });
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(`
