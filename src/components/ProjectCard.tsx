@@ -37,7 +37,7 @@ export default function blogPostWithImage(props) {
       maxW={"445px"}
       w={"full"}
       minW={"350px"}
-      h={"400px"}
+      h={{ base: "auto", lg: "400px" }}
       bg={useColorModeValue("white", "gray.900")}
       boxShadow={"lg"}
       rounded={"md"}
