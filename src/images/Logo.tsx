@@ -6,7 +6,7 @@ import { Text, VStack } from "@chakra-ui/react";
 export const Logo = (props: any) => {
   if (props.variant == "twoLines") {
     return (
-      <VStack spacing={4}>
+      <VStack ml={20}>
         <Text as={"span"} style={{ fontFamily: "Barlow", fontWeight: 900 }}>
           Marek Svitek
         </Text>
@@ -15,8 +15,8 @@ export const Logo = (props: any) => {
           color={"blue.400"}
           style={{
             fontFamily: "Caveat",
-            position: "absolute",
-            fontSize: "1.2em",
+            // position: "absolute",
+            fontSize: "1.8em",
             fontWeight: 500,
             transform: "rotate(-10deg) translateY(-2px)",
           }}

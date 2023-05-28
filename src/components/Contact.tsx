@@ -9,20 +9,10 @@ import {
   Button,
   VStack,
   HStack,
-  Wrap,
-  WrapItem,
-  FormControl,
-  FormLabel,
-  Input,
-  InputGroup,
-  InputLeftElement,
-  Textarea,
-  Image,
   useColorModeValue,
   List,
   ListIcon,
   ListItem,
-  Spacer,
 } from "@chakra-ui/react";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import {
@@ -45,7 +35,7 @@ export default function contact() {
           variant="ghost"
           size="lg"
           isRound={true}
-          _hover={{ bg: useColorModeValue("pink.400", "pink.400") }}
+          _hover={{ bg: "pink.400" }}
           icon={icon}
         />
       </OutboundLink>
@@ -57,15 +47,19 @@ export default function contact() {
       <Box
         // bg={useColorModeValue('#00569b', '#00569b')
         // }
-        bg={useColorModeValue("blue.50", "blue.400")}
+        bg={useColorModeValue("blue.50", "gray.700")}
         boxShadow="xl"
         // color="white"
         borderRadius="lg"
         m={{ sm: 4, md: 16, lg: 10 }}
         p={{ sm: 5, md: 5, lg: 16 }}
+        py={{ base: 6, md: 5 }}
       >
         <Box p={4}>
-          <Flex direction={{ base: "column", md: "row", lg: "row" }}>
+          <Flex
+            direction={{ base: "column", md: "row", lg: "row" }}
+            gap={{ base: "10", md: "0" }}
+          >
             <Box
               mr={{ sm: 0, md: 12, lg: 28 }}
               display="flex"
@@ -74,36 +68,41 @@ export default function contact() {
               alignItems="left"
               style={{ gap: "var(--chakra-space-6)" }}
             >
-              <Heading>Pojďme spolu něco tvořit!</Heading>
+              <Heading textAlign={{ base: "center", md: "left" }}>
+                Pojďme spolu něco tvořit!
+              </Heading>
               <div>
-                <Text>
-                  <b>Neváhej se mě kontaktovat třeba z těchto důvodů:</b>
+                <Text fontWeight={"bold"} mb={2}>
+                  Neváhej se mě kontaktovat třeba z těchto důvodů:
                 </Text>
                 <List ml={4}>
                   <ListItem>
                     <ListIcon
                       as={BsFillArrowRightCircleFill}
-                      color={useColorModeValue("blue.500", "pink.400")}
+                      color="blue.500"
                     />
                     Jsi podnikavý a rád tvoříš 🏗️
                   </ListItem>
                   <ListItem>
                     <ListIcon
                       as={BsFillArrowRightCircleFill}
-                      color={useColorModeValue("blue.500", "pink.400")}
+                      color="blue.500"
                     />
                     Potřebuješ zbrusu nový <i>~blazing fast~</i> web 🚀
                   </ListItem>
                   <ListItem>
                     <ListIcon
                       as={BsFillArrowRightCircleFill}
-                      color={useColorModeValue("blue.500", "pink.400")}
+                      color="blue.500"
                     />
                     ... a nebo jakýkoliv jiný důvod 😜
                   </ListItem>
                 </List>
               </div>
               <Box ml={2}>
+                <Text fontWeight={"bold"} mb={2}>
+                  Kontakty:
+                </Text>
                 <VStack pl={0} spacing={3} alignItems="flex-start">
                   <OutboundLink
                     target="_blank"
@@ -178,7 +177,7 @@ export default function contact() {
               </HStack>
             </Box>
 
-            <Flex direction="column">
+            <Flex direction="column" ml={{ base: "4", md: "0" }}>
               <Box
                 mt={{ sm: 10 }}
                 position={"relative"}
@@ -187,7 +186,7 @@ export default function contact() {
                 width={"auto"}
                 // overflow={'hidden'}
               >
-                <VStack>
+                <HStack>
                   <StaticImage
                     src="../images/hero.png"
                     alt="Profile picture"
@@ -203,7 +202,7 @@ export default function contact() {
                   />
 
                   <Logo variant={"twoLines"} />
-                </VStack>
+                </HStack>
               </Box>
               <Box
                 position={"relative"}
@@ -213,7 +212,7 @@ export default function contact() {
                 mt={8}
                 // overflow={'hidden'}
               >
-                <VStack>
+                <HStack>
                   <StaticImage
                     src="../images/dog.jpg"
                     alt="White dog"
@@ -227,7 +226,7 @@ export default function contact() {
                       boxShadow: "var(--chakra-shadows-lg)",
                     }}
                   />
-                  <VStack spacing={4}>
+                  <VStack ml={20}>
                     <Text
                       as={"span"}
                       style={{ fontFamily: "Barlow", fontWeight: 900 }}
@@ -239,16 +238,17 @@ export default function contact() {
                       color={"pink.400"}
                       style={{
                         fontFamily: "Caveat",
-                        position: "absolute",
-                        fontSize: "1.2em",
+                        // position: "absolute",
+                        fontSize: "1.8em",
                         fontWeight: 500,
-                        transform: "rotate(-10deg) translateY(-2px)",
+                        transform:
+                          "rotate(-10deg) translateX(-20px) translateY(-2px)",
                       }}
                     >
                       Annie
                     </Text>
                   </VStack>
-                </VStack>
+                </HStack>
               </Box>
             </Flex>
           </Flex>

@@ -7,7 +7,7 @@ import Seo from "../components/seo";
 const page = () => {
   return (
     <Template>
-      <Contact></Contact>
+      <Contact/>
     </Template>
   );
 };
