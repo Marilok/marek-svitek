@@ -14,6 +14,8 @@ import hsbc from "../images/projects/hsbc.png";
 import vse from "../images/projects/vse.png";
 import youniversity from "../images/projects/youniversity.png";
 import rekrabice from "../images/projects/rekrabice.png";
+import ngof from "../images/projects/ngof.png";
+
 import Seo from "../components/seo";
 
 const PODNIKANI_COLOR = "blue";
@@ -191,6 +193,15 @@ const PROJECTS = [
       { name: "MOOC", color: MOOC_COLOR },
       { name: "IT", color: IT_COLOR },
     ],
+  },
+  {
+    title: "Design Thinking kurz",
+    description:
+      "Metoda k řešení problémů zaměřená na uživatele. Začíná pochopením potřeb, dále zkoumá inovativní řešení a končí testováním rychlých prototypů.",
+    link: "https://events.withgoogle.com/new-generation-of-founders/",
+    imgSrc: ngof,
+    tags: [{ name: "podnikání", color: PODNIKANI_COLOR }, { name: "MOOC", color: MOOC_COLOR }],
+    date: "10/2022",
   },
   {
     title: "Základy kybernetické bezpečnosti",
