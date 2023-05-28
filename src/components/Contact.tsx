@@ -107,7 +107,7 @@ export default function contact() {
                 <VStack pl={0} spacing={3} alignItems="flex-start">
                   <OutboundLink
                     target="_blank"
-                    href={"mailto:kontakt@mareksvitek.cz/"}
+                    href={"mailto:jsem@mareksvitek.cz/"}
                   >
                     <Button
                       size="md"
@@ -116,7 +116,7 @@ export default function contact() {
                       justifyContent={"start"}
                       leftIcon={<MdEmail size="20px" />}
                     >
-                      kontakt@mareksvitek.cz
+                      jsem@mareksvitek.cz
                     </Button>
                   </OutboundLink>
 
