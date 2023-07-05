@@ -26,12 +26,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   });
   
   createRedirect({
-    fromPath: "/je-bitcoin-lepsi-nez-fiat/*",
+    fromPath: "/je-bitcoin-lepsi-nez-fiat",
     toPath:
-      "/Je%20Bitcoin%20lep%C5%A1%C3%AD%20ne%C5%BE%20FIAT.docx",
-    isPermanent: true,
-    force: true,
-    statusCode: 200,
+      "/Je%20Bitcoin%20lepší%20než%20FIAT.docx",
   });
 
   // Get all markdown blog posts sorted by date
