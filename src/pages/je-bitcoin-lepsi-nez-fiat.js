@@ -10,9 +10,9 @@ const Page = ({ data }) => {
     <Template>
       <Center maxW="full" h="87vh">
         <Stack>
-          <Link to="Je%20Bitcoin%20lepší%20než%20FIAT.docx" as={"textPath"} fontSize="4xl">
-            Stáhnout soubor.
-          </Link>
+          <a href="Je%20Bitcoin%20lepší%20než%20FIAT.docx" as={"textPath"} fontSize="4xl" download>
+            Stáhnout soubor
+          </a>
         </Stack>
       </Center>
     </Template>
