@@ -44,7 +44,7 @@ const BlogIndex = ({ data, location }) => {
         ))}
         <WrapItem>
           <Center py={6}>
-            <Link to={"/digitalnizahrada"}>
+            <Link to={"/digitalni-zahrada"}>
               <Box
                 maxW={"445px"}
                 w={{ md: "md", sm: "sm", lg: "lg" }}
