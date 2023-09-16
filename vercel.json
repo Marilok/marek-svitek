@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/digitalnizahrada/",
+      "destination": "https://publish.obsidian.md/serve?url=mareksvitek.cz/digitalnizahrada"
+    },
+    {
+      "source": "/digitalnizahrada/:path*",
+      "destination": "https://publish.obsidian.md/serve?url=mareksvitek.cz/digitalnizahrada/:path*"
+    }
+  ]
+}
