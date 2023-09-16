@@ -7,6 +7,6 @@
     {
       "source": "/digitalni-zahrada/:path*",
       "destination": "https://publish.obsidian.md/serve?url=mareksvitek.cz/digitalni-zahrada/:path*"
-    },
+    }
   ]
 }
