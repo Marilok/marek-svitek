@@ -15,21 +15,21 @@ export function NavigationButtons() {
   return (
     <>
       <ActionIcon
-        size="lg"
+        size="xl"
         variant="filled"
         className={`${
           showButton ? "!opacity-100" : "!opacity-0"
-        } !fixed top-5 left-5 z-50 active:scale-95 hover:scale-105`}
+        } !fixed top-5 right-10 z-50 active:scale-95 hover:scale-105`}
         onClick={scrollToPreviousSection}
       >
         <IconChevronUp />
       </ActionIcon>
       <ActionIcon
-        size="lg"
+        size="xl"
         variant="filled"
         className={`${
           showButton && !isOnContact ? "!opacity-100" : "!opacity-0"
-        } !fixed bottom-5 left-5 z-50 active:scale-95 hover:scale-105`}
+        } !fixed bottom-5 right-10 z-50 active:scale-95 hover:scale-105`}
         onClick={scrollToNextSection}
       >
         <IconChevronDown />

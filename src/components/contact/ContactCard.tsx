@@ -42,7 +42,7 @@ export function ContactCard() {
             <ContactLink
               icon={<IconBrandLinkedin size={20} />}
               title="LinkedIn"
-              subtitle="linkedin.com/in/mareksvitek"
+              subtitle="mareksvitek"
               href="https://linkedin.com/in/mareksvitek"
               color="blue"
               target="_blank"
