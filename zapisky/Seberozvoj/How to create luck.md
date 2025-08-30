@@ -1,1 +1,0 @@
-- [How to Create Luck](https://www.swyx.io/create-luck/)
