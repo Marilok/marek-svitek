@@ -4,11 +4,13 @@ import {
   Title,
   Grid,
   Text,
-  Group,
+  // Group,
   Paper,
   Button,
 } from "@mantine/core";
+import { IconBrandLinkedin, IconDownload } from "@tabler/icons-react";
 import EducationItem from "./EducationItem";
+import Link from "next/link";
 
 export function AcademicSection() {
   return (
@@ -71,26 +73,29 @@ export function AcademicSection() {
                     self-improvement, cybersecurity, economics,
                     entrepreneurship, and AI.
                   </Text>
-                  <Group justify="flex-start" gap="sm">
+                  <Stack gap="sm" align="flex-start" className="w-48">
                     <Button
-                      component="a"
+                      component={Link}
+                      fullWidth
                       href="https://linkedin.com/in/yourprofile"
                       target="_blank"
-                      variant="light"
-                      size="sm"
+                      leftSection={<IconBrandLinkedin size={16} />}
                     >
-                      LinkedIn
+                      Visit LinkedIn
                     </Button>
                     <Button
-                      component="a"
+                      component={Link}
                       href="/resume.pdf"
                       download
+                      fullWidth
                       variant="light"
                       size="sm"
+                      leftSection={<IconDownload size={16} />}
+                      style={{ minWidth: 160 }}
                     >
-                      Download Resume
+                      Download CV
                     </Button>
-                  </Group>
+                  </Stack>
                 </Stack>
               </Paper>
             </Grid.Col>
