@@ -1,20 +1,9 @@
 "use client";
-import {
-  Card,
-  Grid,
-  Text,
-  Flex,
-  AspectRatio,
-  Image,
-  Tooltip,
-  ActionIcon,
-  Center,
-} from "@mantine/core";
+import { Card, Grid, Text, Flex, AspectRatio, Image } from "@mantine/core";
 import {
   IconBrandLinkedin,
   IconMail,
   IconBrandInstagram,
-  IconRotateClockwise,
 } from "@tabler/icons-react";
 import { ContactLink } from "./ContactLink";
 import NextImage from "next/image";

@@ -10,6 +10,7 @@ import {
 } from "@mantine/core";
 import { IconBrandLinkedin, IconDownload } from "@tabler/icons-react";
 import EducationItem from "./EducationItem";
+import { PublicationItem } from "./PublicationItem";
 import Link from "next/link";
 
 export function AcademicSection() {
@@ -20,12 +21,20 @@ export function AcademicSection() {
     >
       <Container size="lg" py={80}>
         <Stack gap="xl">
-          <Title order={2} ta="center" mb="xl">
-            Academic background
-          </Title>
+          <Stack gap="md" align="center">
+            <Title order={2} ta="center">
+              Academic background
+            </Title>
+            <Text size="lg" ta="center" maw={800} mx="auto">
+              Apart from building startups, I love learning new stuff about how
+              our intertwined and complex world works, that&apos;s why I have a
+              strong interest in Economics and data.
+            </Text>
+          </Stack>
           <Grid>
             <Grid.Col span={{ base: 12, md: 7 }}>
               <Stack gap="xs">
+                <Title order={3}>Education</Title>
                 <EducationItem
                   title="Exchange Semester"
                   institution="University of Michigan"
@@ -63,31 +72,48 @@ export function AcademicSection() {
             </Grid.Col>
 
             <Grid.Col span={{ base: 12, md: 5 }}>
-              <Paper p="lg" withBorder>
-                <Stack justify="center">
-                  <Button
-                    component={Link}
-                    fullWidth
-                    href="https://linkedin.com/in/mareksvitek"
-                    target="_blank"
-                    leftSection={<IconBrandLinkedin size={16} />}
-                  >
-                    Visit LinkedIn
-                  </Button>
-                  <Button
-                    component={Link}
-                    href="/resume.pdf"
-                    download
-                    fullWidth
-                    variant="light"
-                    size="sm"
-                    leftSection={<IconDownload size={16} />}
-                    style={{ minWidth: 160 }}
-                  >
-                    Download CV
-                  </Button>
+              <Stack gap="md">
+                <Stack gap="xs">
+                  <Title order={3}>Publications</Title>
+
+                  <PublicationItem
+                    title="Is Bitcoin better than FIAT?"
+                    description="First academic paper examining Bitcoin vs FIAT currencies as a store of value and transactional medium. Won 2nd place in the Dean's Award Competition."
+                    year="2023"
+                    icon="/publications/bitcoin.svg"
+                  />
                 </Stack>
-              </Paper>
+
+                <Stack gap="xs">
+                  <Title order={3}>Complete CV</Title>
+
+                  <Paper p="lg" withBorder>
+                    <Stack justify="center" gap={"xs"}>
+                      <Button
+                        component={Link}
+                        fullWidth
+                        href="https://linkedin.com/in/mareksvitek"
+                        target="_blank"
+                        leftSection={<IconBrandLinkedin size={16} />}
+                      >
+                        Visit LinkedIn
+                      </Button>
+                      <Button
+                        component={Link}
+                        href="/resume.pdf"
+                        download
+                        fullWidth
+                        variant="light"
+                        size="sm"
+                        leftSection={<IconDownload size={16} />}
+                        style={{ minWidth: 160 }}
+                      >
+                        Download CV
+                      </Button>
+                    </Stack>
+                  </Paper>
+                </Stack>
+              </Stack>
             </Grid.Col>
           </Grid>
         </Stack>
