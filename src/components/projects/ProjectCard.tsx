@@ -7,10 +7,8 @@ import {
   Title,
   Badge,
   Text,
-  Button,
   List,
 } from "@mantine/core";
-import { IconExternalLink } from "@tabler/icons-react";
 
 export interface ProjectCardProps {
   title: string;
@@ -29,18 +27,6 @@ export interface ProjectCardProps {
   description?: string;
   bullets?: string[];
   href?: string;
-  // CTA props
-  ctaLabel?: string;
-  ctaHref?: string;
-  ctaTarget?: "_blank" | "_self" | "_parent" | "_top";
-  ctaVariant?:
-    | "light"
-    | "filled"
-    | "outline"
-    | "subtle"
-    | "default"
-    | "gradient";
-  onCtaClick?: () => void;
 }
 
 export function ProjectCard({
@@ -51,12 +37,6 @@ export function ProjectCard({
   alt,
   description,
   bullets,
-  href = "#",
-  ctaLabel = "Learn More",
-  ctaHref,
-  ctaTarget = "_blank",
-  ctaVariant = "light",
-  onCtaClick,
 }: ProjectCardProps) {
   return (
     <Card shadow="sm" padding="lg" radius="md" withBorder h="100%">
@@ -94,17 +74,6 @@ export function ProjectCard({
             ))}
           </List>
         )}
-
-        <Button
-          variant={ctaVariant}
-          leftSection={<IconExternalLink size={16} />}
-          component={ctaHref ? "a" : undefined}
-          href={ctaHref ?? href}
-          target={ctaHref ? ctaTarget : undefined}
-          onClick={onCtaClick}
-        >
-          {ctaLabel}
-        </Button>
       </Stack>
     </Card>
   );

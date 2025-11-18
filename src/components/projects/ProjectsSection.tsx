@@ -1,17 +1,25 @@
-import { Container, Stack, Title, Grid } from "@mantine/core";
+import { Container, Stack, Title, Grid, Text } from "@mantine/core";
 import { ProjectCard } from "./ProjectCard";
 
 export function ProjectsSection() {
   return (
     <section
       className="snap-start md:min-h-screen flex items-center justify-center"
-      id="projects"
+      id="experience"
     >
       <Container size="lg" py={80}>
         <Stack gap="xl">
-          <Title order={2} ta="center" mb="xl">
-            Projects
-          </Title>
+          <Stack gap="md" align="center">
+            <Title order={2} ta="center">
+              Work experience
+            </Title>
+            <Text size="lg" ta="center" maw={800} mx="auto">
+              Over the years, I&apos;ve had the privilege to work on several
+              exciting projects, ranging from innovative startups to impactful
+              web applications. Here are some highlights of my professional
+              journey.
+            </Text>
+          </Stack>
 
           <Grid>
             <Grid.Col span={{ base: 12, md: 6 }}>

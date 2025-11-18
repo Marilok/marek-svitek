@@ -1,6 +1,7 @@
-import { Card, Image, Text, ThemeIcon } from "@mantine/core";
+import { Card, Group, Image, Text, ThemeIcon } from "@mantine/core";
 import { IconExternalLink } from "@tabler/icons-react";
 import Link from "next/link";
+import NextImage from "next/image";
 
 interface ArticleCardProps {
   image: string;
@@ -27,18 +28,35 @@ export function ArticleCard({
         maw={"320"}
         withBorder
         padding="lg"
-        className="hover:scale-105 active:scale-95"
+        className="hover:scale-105 active:scale-95 transition-transform duration-200"
       >
-        <Card.Section mb="sm">
-          <Image src={image} alt={imageAlt} height={180} />
+        <Card.Section
+          mb="sm"
+          className="h-32"
+          pos="relative"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <Image
+            component={NextImage}
+            src={image}
+            alt={imageAlt}
+            fill={true}
+            style={{ objectFit: "cover" }}
+          />
         </Card.Section>
 
-        <Text fw={"500"} size="lg" className="align-middle">
-          {title}
+        <Group gap={"0"}>
+          <Text fw={"500"} size="lg" className="align-middle">
+            {title}
+          </Text>
           <ThemeIcon size="sm" variant="white" color="gray">
             <IconExternalLink size={14} />
           </ThemeIcon>
-        </Text>
+        </Group>
         <Text size="sm" c="dimmed">
           {description}
         </Text>

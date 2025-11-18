@@ -4,7 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 
 export function useNavigation() {
   const sections = useMemo(
-    () => ["hero", "about", "projects", "academic", "notes", "contact"],
+    () => ["hero", "about", "experience", "academic", "notes", "contact"],
     []
   );
 

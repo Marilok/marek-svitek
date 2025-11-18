@@ -32,10 +32,12 @@ export function ContactCard() {
     >
       <Grid>
         <Grid.Col span={12}>
-          <Text fw={"bold"} fz={"xl"}>
+          <Text fw={"bold"} fz={"xl"} ta={"left"}>
             Marek Svitek
           </Text>
-          <Text c="dimmed">CTO & Co-founder at Cognivibe</Text>
+          <Text c="dimmed" ta={"left"} fz={"lg"}>
+            CTO & Co-founder at Cognivibe
+          </Text>
         </Grid.Col>
         <Grid.Col span={6}>
           <Flex gap="xs" direction="column">

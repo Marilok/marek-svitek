@@ -6,42 +6,16 @@ import {
   Text,
   Group,
   Button,
-  Modal,
 } from "@mantine/core";
 import { IconChevronDown } from "@tabler/icons-react";
-import { useState, useEffect } from "react";
 
 export function HeroSection({
   scrollToSection,
 }: {
   scrollToSection: (id: string) => void;
 }) {
-  const [opened, setOpened] = useState(false);
-
-  useEffect(() => {
-    // Auto-open modal after component mounts
-    const timer = setTimeout(() => {
-      setOpened(true);
-    }, 1000); // 1 second delay
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <>
-      <Modal
-        opened={opened}
-        onClose={() => setOpened(false)}
-        title="🚧 Work in Progress"
-        centered
-        size="md"
-      >
-        <Text>
-          This website is currently a work in progress. Some features may not be
-          fully functional yet.
-        </Text>
-      </Modal>
-
       <section
         className="snap-start md:min-h-screen flex items-center justify-center"
         id="hero"

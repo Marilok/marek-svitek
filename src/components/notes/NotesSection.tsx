@@ -11,11 +11,12 @@ export function NotesSection() {
       <Container size="lg" py="xl">
         <Stack gap="md" align="center">
           <Title order={2} ta="center">
-            My digital garden
+            Digital garden of notes
           </Title>
-          <Text size="lg" ta="center" maw={800} mx="auto" lh={1.6}>
-            A growing mix of ideas and notes on tech, startups, economics, and
-            life—just me sharing what I’m learning along the way.
+          <Text size="lg" ta="center" maw={800} mx="auto">
+            To capture my thoughts and ideas, I started a so-called digital
+            garden. A place where I capture notes on tech, startups, economics,
+            and life. Feel free to check it out!
           </Text>
 
           <SimpleGrid cols={2}>

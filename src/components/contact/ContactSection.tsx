@@ -13,8 +13,7 @@ export function ContactSection() {
             <Title order={2}>Let&apos;s connect</Title>
             <Text size="lg" maw={600}>
               I’m always open to chats about startups, tech, economics, or
-              collaborations. Reach out on LinkedIn or email, I usually reply
-              within a day.
+              collaborations. Best to reach out to me on LinkedIn or email.
             </Text>
           </Stack>
           <ContactCard />

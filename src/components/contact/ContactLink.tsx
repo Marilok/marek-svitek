@@ -34,7 +34,9 @@ export function ContactLink({
           {icon}
         </ThemeIcon>
         <div>
-          <Text fw={"500"}>{title}</Text>
+          <Text fw={"500"} ta={"left"}>
+            {title}
+          </Text>
           <Text size="sm" c="dimmed">
             {subtitle}
           </Text>
